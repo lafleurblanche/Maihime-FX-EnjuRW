@@ -21,6 +21,8 @@ class PassengerKbnConst  {
         const val PSGR_KBN_D006 = "身障介助者"
         /** 割引種別: 被救護者 */
         const val PSGR_KBN_D007 = "被救護者"
+        /** 割引種別: 老年割引 */
+        const val PSGR_KBN_D008 = "老年割引"
         /** 後払種別: 私学特待 */
         const val PSGR_KBN_PP001 = "私学特待"
         /** 後払種別: 私学通学 */

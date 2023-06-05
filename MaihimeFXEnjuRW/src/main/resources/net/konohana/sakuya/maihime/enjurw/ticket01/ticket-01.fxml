@@ -404,24 +404,24 @@
                               <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="111.0" text="諾川" GridPane.columnIndex="2" GridPane.rowIndex="2" />
                               <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="119.0" text="筥谷" GridPane.columnIndex="3" GridPane.rowIndex="2" />
                               <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="108.0" text="本筥谷" GridPane.columnIndex="4" GridPane.rowIndex="2" />
-                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="113.0" GridPane.columnIndex="5" GridPane.rowIndex="2" />
-                              <Button mnemonicParsing="false" prefHeight="94.0" prefWidth="106.0" GridPane.rowIndex="3" />
-                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="126.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
-                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="134.0" GridPane.columnIndex="2" GridPane.rowIndex="3" />
-                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="114.0" GridPane.columnIndex="3" GridPane.rowIndex="3" />
-                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="117.0" GridPane.columnIndex="4" GridPane.rowIndex="3" />
-                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="114.0" GridPane.columnIndex="5" GridPane.rowIndex="3" />
-                              <Button mnemonicParsing="false" prefHeight="87.0" prefWidth="106.0" GridPane.rowIndex="4" />
-                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="118.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
-                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="119.0" GridPane.columnIndex="2" GridPane.rowIndex="4" />
-                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="123.0" GridPane.columnIndex="3" GridPane.rowIndex="4" />
-                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="110.0" GridPane.columnIndex="4" GridPane.rowIndex="4" />
-                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="110.0" GridPane.columnIndex="5" GridPane.rowIndex="4" />
-                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="115.0" GridPane.rowIndex="5" />
-                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="118.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
-                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="124.0" GridPane.columnIndex="2" GridPane.rowIndex="5" />
-                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="122.0" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="5" />
-                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="113.0" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="113.0" text="笒谷" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+                              <Button mnemonicParsing="false" prefHeight="94.0" prefWidth="106.0" text="畭谷" GridPane.rowIndex="3" />
+                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="126.0" text="上畭谷" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="134.0" text="箬谷" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="114.0" text="西箬谷" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="117.0" text="苕谷" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="114.0" text="東苕谷" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+                              <Button mnemonicParsing="false" prefHeight="87.0" prefWidth="106.0" text="扆谷" GridPane.rowIndex="4" />
+                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="118.0" text="奥扆谷" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="119.0" text="珩谷" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="123.0" text="中珩谷" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="110.0" text="上珩谷" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="110.0" text="玿谷" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="115.0" text="上玿谷" GridPane.rowIndex="5" />
+                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="118.0" text="珮谷" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="124.0" text="上珮谷" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="122.0" text="荍谷" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="113.0" text="上荍谷" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="5" />
                               <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="115.0" GridPane.columnIndex="5" GridPane.rowIndex="5" />
                               <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="117.0" GridPane.rowIndex="6" />
                               <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="111.0" GridPane.columnIndex="1" GridPane.rowIndex="6" />
@@ -479,65 +479,65 @@
                               <RowConstraints maxHeight="620.0" minHeight="10.0" prefHeight="60.0" vgrow="SOMETIMES" />
                            </rowConstraints>
                            <children>
-                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="111.0" text="酢橋線&#10;霞台" textAlignment="CENTER" />
-                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="119.0" text="緋池線&#10;霞台" textAlignment="CENTER" GridPane.columnIndex="1" />
-                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="135.0" text="薬川線&#10;霞台" textAlignment="CENTER" GridPane.columnIndex="2" />
-                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="119.0" text="姫橋線&#10;霞台" textAlignment="CENTER" GridPane.columnIndex="3" />
-                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="106.0" GridPane.columnIndex="4" />
+                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="111.0" text="梼谷" textAlignment="CENTER" />
+                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="119.0" text="東梼谷" textAlignment="CENTER" GridPane.columnIndex="1" />
+                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="135.0" text="卯花" textAlignment="CENTER" GridPane.columnIndex="2" />
+                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="119.0" text="上卯花" textAlignment="CENTER" GridPane.columnIndex="3" />
+                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="106.0" text="槐谷" GridPane.columnIndex="4" />
                               <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="108.0" textAlignment="CENTER" GridPane.columnIndex="5" />
-                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="125.0" text="酢橋線&#10;閂坂" textAlignment="CENTER" GridPane.rowIndex="1" />
-                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="125.0" text="墨坂線&#10;閂坂" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="125.0" text="和橋線&#10;閂坂" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="1" />
-                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="129.0" GridPane.columnIndex="3" GridPane.rowIndex="1" />
-                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="110.0" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="1" />
-                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="110.0" textAlignment="CENTER" GridPane.columnIndex="5" GridPane.rowIndex="1" />
-                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="130.0" text="和橋線&#10;粕池" textAlignment="CENTER" GridPane.rowIndex="2" />
-                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="123.0" text="納田線&#10;粕池" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="111.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
-                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="119.0" GridPane.columnIndex="3" GridPane.rowIndex="2" />
-                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="108.0" GridPane.columnIndex="4" GridPane.rowIndex="2" />
-                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="113.0" GridPane.columnIndex="5" GridPane.rowIndex="2" />
-                              <Button mnemonicParsing="false" prefHeight="94.0" prefWidth="106.0" text="澄宮" GridPane.rowIndex="3" />
-                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="126.0" text="梅淵" GridPane.columnIndex="1" GridPane.rowIndex="3" />
-                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="134.0" text="酢橋" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="125.0" text="槐谷" textAlignment="CENTER" GridPane.rowIndex="1" />
+                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="125.0" text="苆谷" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="125.0" text="拯川" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="129.0" text="上拯川" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="110.0" text="茄谷" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="110.0" text="笥谷" textAlignment="CENTER" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="130.0" text="岩組" textAlignment="CENTER" GridPane.rowIndex="2" />
+                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="123.0" text="筏谷" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="111.0" text="宿田" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="119.0" text="瑞堂" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="108.0" text="筮谷" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="113.0" text="和瀬" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+                              <Button mnemonicParsing="false" prefHeight="94.0" prefWidth="106.0" text="上和瀬" GridPane.rowIndex="3" />
+                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="126.0" text="卯塚" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="134.0" GridPane.columnIndex="2" GridPane.rowIndex="3" />
                               <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="114.0" GridPane.columnIndex="3" GridPane.rowIndex="3" />
                               <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="117.0" GridPane.columnIndex="4" GridPane.rowIndex="3" />
                               <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="114.0" GridPane.columnIndex="5" GridPane.rowIndex="3" />
-                              <Button mnemonicParsing="false" prefHeight="87.0" prefWidth="106.0" text="杵塚" GridPane.rowIndex="4" />
-                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="118.0" text="綴川" GridPane.columnIndex="1" GridPane.rowIndex="4" />
-                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="119.0" text="薇塚" GridPane.columnIndex="2" GridPane.rowIndex="4" />
-                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="123.0" text="墨坂" GridPane.columnIndex="3" GridPane.rowIndex="4" />
-                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="110.0" GridPane.columnIndex="4" GridPane.rowIndex="4" />
-                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="110.0" GridPane.columnIndex="5" GridPane.rowIndex="4" />
-                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="115.0" text="橙橋" GridPane.rowIndex="5" />
-                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="118.0" text="七市" GridPane.columnIndex="1" GridPane.rowIndex="5" />
-                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="124.0" text="和橋" GridPane.columnIndex="2" GridPane.rowIndex="5" />
-                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="122.0" text="上和橋" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="5" />
-                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="113.0" text="瑞雨寺" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="5" />
-                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="115.0" text="鰐浦" GridPane.columnIndex="5" GridPane.rowIndex="5" />
-                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="117.0" text="椚坂" GridPane.rowIndex="6" />
-                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="111.0" text="納田" GridPane.columnIndex="1" GridPane.rowIndex="6" />
-                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="116.0" GridPane.columnIndex="2" GridPane.rowIndex="6" />
-                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="113.0" GridPane.columnIndex="3" GridPane.rowIndex="6" />
-                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="117.0" GridPane.columnIndex="4" GridPane.rowIndex="6" />
-                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="112.0" GridPane.columnIndex="5" GridPane.rowIndex="6" />
-                              <Button mnemonicParsing="false" prefHeight="76.0" prefWidth="125.0" text="埋橋" GridPane.rowIndex="7" />
-                              <Button mnemonicParsing="false" prefHeight="76.0" prefWidth="117.0" text="叶川" GridPane.columnIndex="1" GridPane.rowIndex="7" />
-                              <Button mnemonicParsing="false" prefHeight="76.0" prefWidth="120.0" text="錫宮" GridPane.columnIndex="2" GridPane.rowIndex="7" />
-                              <Button mnemonicParsing="false" prefHeight="76.0" prefWidth="117.0" text="緋池" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="7" />
+                              <Button mnemonicParsing="false" prefHeight="87.0" prefWidth="106.0" text="東卯塚" GridPane.rowIndex="4" />
+                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="118.0" text="筁谷" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="119.0" text="筥谷" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="123.0" text="粥坂" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="110.0" text="笒谷" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="110.0" text="箬谷" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="115.0" text="梧谷" GridPane.rowIndex="5" />
+                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="118.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="124.0" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="122.0" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="113.0" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="115.0" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="117.0" text="東瑞堂" GridPane.rowIndex="6" />
+                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="111.0" text="苕谷" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="116.0" text="扆谷" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="113.0" text="珩谷" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="117.0" text="玿谷" GridPane.columnIndex="4" GridPane.rowIndex="6" />
+                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="112.0" text="珮谷" GridPane.columnIndex="5" GridPane.rowIndex="6" />
+                              <Button mnemonicParsing="false" prefHeight="76.0" prefWidth="125.0" text="荍谷" GridPane.rowIndex="7" />
+                              <Button mnemonicParsing="false" prefHeight="76.0" prefWidth="117.0" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+                              <Button mnemonicParsing="false" prefHeight="76.0" prefWidth="120.0" GridPane.columnIndex="2" GridPane.rowIndex="7" />
+                              <Button mnemonicParsing="false" prefHeight="76.0" prefWidth="117.0" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="7" />
                               <Button mnemonicParsing="false" prefHeight="76.0" prefWidth="113.0" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="7" />
-                              <Button mnemonicParsing="false" prefHeight="76.0" prefWidth="115.0" text="衣町" textAlignment="CENTER" GridPane.columnIndex="5" GridPane.rowIndex="7" />
-                              <Button mnemonicParsing="false" prefHeight="100.0" prefWidth="115.0" text="杼池" GridPane.rowIndex="8" />
-                              <Button mnemonicParsing="false" prefHeight="104.0" prefWidth="139.0" text="細市" GridPane.columnIndex="1" GridPane.rowIndex="8" />
-                              <Button mnemonicParsing="false" prefHeight="104.0" prefWidth="127.0" text="寶堂" GridPane.columnIndex="2" GridPane.rowIndex="8" />
-                              <Button mnemonicParsing="false" prefHeight="108.0" prefWidth="156.0" text="袴坂" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="8" />
-                              <Button mnemonicParsing="false" prefHeight="101.0" prefWidth="144.0" text="竃川" GridPane.columnIndex="4" GridPane.rowIndex="8" />
-                              <Button mnemonicParsing="false" prefHeight="110.0" prefWidth="158.0" text="薬川温泉" GridPane.columnIndex="5" GridPane.rowIndex="8" />
-                              <Button mnemonicParsing="false" prefHeight="90.0" prefWidth="108.0" text="霞坂" GridPane.rowIndex="9" />
-                              <Button mnemonicParsing="false" prefHeight="139.0" prefWidth="173.0" text="鞴町" GridPane.columnIndex="1" GridPane.rowIndex="9" />
-                              <Button mnemonicParsing="false" prefHeight="196.0" prefWidth="220.0" text="姫橋" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="9" />
-                              <Button mnemonicParsing="false" prefHeight="173.0" prefWidth="193.0" text="襅町" GridPane.columnIndex="3" GridPane.rowIndex="9" />
-                              <Button mnemonicParsing="false" prefHeight="173.0" prefWidth="209.0" text="栗宮" GridPane.columnIndex="4" GridPane.rowIndex="9" />
+                              <Button mnemonicParsing="false" prefHeight="76.0" prefWidth="115.0" textAlignment="CENTER" GridPane.columnIndex="5" GridPane.rowIndex="7" />
+                              <Button mnemonicParsing="false" prefHeight="100.0" prefWidth="115.0" GridPane.rowIndex="8" />
+                              <Button mnemonicParsing="false" prefHeight="104.0" prefWidth="139.0" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+                              <Button mnemonicParsing="false" prefHeight="104.0" prefWidth="127.0" GridPane.columnIndex="2" GridPane.rowIndex="8" />
+                              <Button mnemonicParsing="false" prefHeight="108.0" prefWidth="156.0" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="8" />
+                              <Button mnemonicParsing="false" prefHeight="101.0" prefWidth="144.0" GridPane.columnIndex="4" GridPane.rowIndex="8" />
+                              <Button mnemonicParsing="false" prefHeight="110.0" prefWidth="158.0" GridPane.columnIndex="5" GridPane.rowIndex="8" />
+                              <Button mnemonicParsing="false" prefHeight="90.0" prefWidth="108.0" GridPane.rowIndex="9" />
+                              <Button mnemonicParsing="false" prefHeight="139.0" prefWidth="173.0" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+                              <Button mnemonicParsing="false" prefHeight="196.0" prefWidth="220.0" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="9" />
+                              <Button mnemonicParsing="false" prefHeight="173.0" prefWidth="193.0" GridPane.columnIndex="3" GridPane.rowIndex="9" />
+                              <Button mnemonicParsing="false" prefHeight="173.0" prefWidth="209.0" GridPane.columnIndex="4" GridPane.rowIndex="9" />
                               <Button mnemonicParsing="false" prefHeight="94.0" prefWidth="111.0" textAlignment="CENTER" GridPane.columnIndex="5" GridPane.rowIndex="9" />
                            </children>
                         </GridPane>

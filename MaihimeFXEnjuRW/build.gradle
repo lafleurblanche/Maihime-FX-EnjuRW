@@ -1,6 +1,8 @@
 plugins {
     id 'java'
     id 'application'
+    id 'org.springframework.boot' version '3.1.0'
+    id 'io.spring.dependency-management' version '1.1.0'
     id 'org.jetbrains.kotlin.jvm' version '1.6.20'
     id 'org.openjfx.javafxplugin' version '0.0.10'
     id 'org.beryx.jlink' version '2.24.1'
@@ -25,8 +27,7 @@ tasks.withType(JavaCompile) {
 }
 
 application {
-    mainModule = 'net.konohana.sakuya.maihime.enjurw'
-    mainClass = 'net.konohana.sakuya.maihime.enjurw.MaihimeFXEnjuRWApplication'
+    mainClass = 'net.konohana.sakuya.maihime.enjurw.MaihimeFXEnjuRWCliApp'
 }
 
 [compileKotlin, compileTestKotlin].forEach {
@@ -41,7 +42,14 @@ javafx {
 }
 
 dependencies {
-
+    implementation("com.gluonhq:ignite-spring:1.2.2")
+    implementation 'org.springframework.boot:spring-boot-starter-webflux'
+    implementation 'com.fasterxml.jackson.module:jackson-module-kotlin'
+    implementation 'io.projectreactor.kotlin:reactor-kotlin-extensions'
+    implementation 'org.jetbrains.kotlin:kotlin-reflect'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-reactor'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    testImplementation 'io.projectreactor:reactor-test'
     testImplementation("org.junit.jupiter:junit-jupiter-api:${junitVersion}")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:${junitVersion}")
 }

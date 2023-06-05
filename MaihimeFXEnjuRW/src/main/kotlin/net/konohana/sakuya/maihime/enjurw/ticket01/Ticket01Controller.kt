@@ -31,6 +31,9 @@ import net.konohana.sakuya.maihime.enjurw.utils.code.getFromStaCodeBtn06
 import net.konohana.sakuya.maihime.enjurw.utils.code.getFromStaCodeBtn07
 import net.konohana.sakuya.maihime.enjurw.utils.code.getFromStaCodeBtn08
 import net.konohana.sakuya.maihime.enjurw.utils.code.getFromStaCodeBtn09
+import net.konohana.sakuya.maihime.enjurw.utils.code.getFromStaCodeBtn10
+import net.konohana.sakuya.maihime.enjurw.utils.code.getFromStaCodeBtn11
+import net.konohana.sakuya.maihime.enjurw.utils.code.getFromStaCodeBtn12
 import net.konohana.sakuya.maihime.enjurw.utils.showAlertDialog
 import net.konohana.sakuya.maihime.enjurw.utils.date.getDayAfterTomorrowDate
 import net.konohana.sakuya.maihime.enjurw.utils.date.getDayMonthLaterDate
@@ -505,22 +508,28 @@ class Ticket01Controller : Initializable {
     /** 笥谷(乗車駅)ボタン押下時処理 */
     @FXML
     private fun onFromStaBtn10Click() {
-        fromStaTextField.text = "姫橋"
-        fromStaCodeTextField.text = "KNHN10"
+        val fromStaCodeText = getFromStaCodeBtn10()
+        fromStaTextField.text = fromStaCodeText.first
+        fromStaCodeTextField.text = fromStaCodeText.second
+        fromStaCode = fromStaCodeText.second
     }
 
     /** 筏谷(乗車駅)ボタン押下時処理 */
     @FXML
     private fun onFromStaBtn11Click() {
-        fromStaTextField.text = "襅町"
-        fromStaCodeTextField.text = "KNHN12"
+        val fromStaCodeText = getFromStaCodeBtn11()
+        fromStaTextField.text = fromStaCodeText.first
+        fromStaCodeTextField.text = fromStaCodeText.second
+        fromStaCode = fromStaCodeText.second
     }
 
     /** 瑞堂(乗車駅)ボタン押下時処理 */
     @FXML
     private fun onFromStaBtn12Click() {
-        fromStaTextField.text = "襅町"
-        fromStaCodeTextField.text = "KNHN12"
+        val fromStaCodeText = getFromStaCodeBtn12()
+        fromStaTextField.text = fromStaCodeText.first
+        fromStaCodeTextField.text = fromStaCodeText.second
+        fromStaCode = fromStaCodeText.second
     }
 
 

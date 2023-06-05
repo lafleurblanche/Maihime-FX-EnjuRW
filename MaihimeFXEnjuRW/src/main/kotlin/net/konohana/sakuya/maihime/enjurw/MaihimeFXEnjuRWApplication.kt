@@ -8,7 +8,7 @@ import javafx.stage.Stage
 class MaihimeFXEnjuRWApplication : Application() {
     override fun start(stage: Stage) {
         val fxmlLoader = FXMLLoader(MaihimeFXEnjuRWApplication::class.java.getResource("mainmenu/main-menu.fxml"))
-        val scene = Scene(fxmlLoader.load(), 1200.0, 900.0)
+        val scene = Scene(fxmlLoader.load(), 1200.0, 915.0)
         stage.title = "発券システム(仮)"
         stage.scene = scene
         stage.show()

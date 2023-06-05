@@ -502,16 +502,23 @@ class Ticket01Controller : Initializable {
         fromStaCode = fromStaCodeText.second
     }
 
-    /** 姫橋(乗車駅)ボタン押下時処理 */
+    /** 笥谷(乗車駅)ボタン押下時処理 */
     @FXML
     private fun onFromStaBtn10Click() {
         fromStaTextField.text = "姫橋"
         fromStaCodeTextField.text = "KNHN10"
     }
 
-    /** 襅町(乗車駅)ボタン押下時処理 */
+    /** 筏谷(乗車駅)ボタン押下時処理 */
     @FXML
     private fun onFromStaBtn11Click() {
+        fromStaTextField.text = "襅町"
+        fromStaCodeTextField.text = "KNHN12"
+    }
+
+    /** 瑞堂(乗車駅)ボタン押下時処理 */
+    @FXML
+    private fun onFromStaBtn12Click() {
         fromStaTextField.text = "襅町"
         fromStaCodeTextField.text = "KNHN12"
     }

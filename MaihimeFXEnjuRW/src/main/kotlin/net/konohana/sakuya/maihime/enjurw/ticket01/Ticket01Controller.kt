@@ -19,6 +19,7 @@ import net.konohana.sakuya.maihime.enjurw.constant.psgrkbn.PassengerKbnConst.Com
 import net.konohana.sakuya.maihime.enjurw.constant.psgrkbn.PassengerKbnConst.Companion.PSGR_KBN_D005
 import net.konohana.sakuya.maihime.enjurw.constant.psgrkbn.PassengerKbnConst.Companion.PSGR_KBN_D006
 import net.konohana.sakuya.maihime.enjurw.constant.psgrkbn.PassengerKbnConst.Companion.PSGR_KBN_D007
+import net.konohana.sakuya.maihime.enjurw.constant.psgrkbn.PassengerKbnConst.Companion.PSGR_KBN_D008
 import net.konohana.sakuya.maihime.enjurw.constant.psgrkbn.PassengerKbnConst.Companion.PSGR_KBN_PP001
 import net.konohana.sakuya.maihime.enjurw.constant.psgrkbn.PassengerKbnConst.Companion.PSGR_KBN_PP002
 import net.konohana.sakuya.maihime.enjurw.utils.checkInputValue
@@ -310,15 +311,10 @@ class Ticket01Controller : Initializable {
         childTextField.text = checkInputValue(childInputValue)
     }
 
-    /** 経路1ボタン押下時処理 */
+    /** 経路自動設定ボタン押下時処理 */
     @FXML
-    private fun onRoute1Click() {
-        var data = toStaCodeTextField.text
-        if (data.equals("")) {
-            showAlertDialog("降車駅が未入力です。")
-        }  else {
-            viaTextField.text = ""
-        }
+    private fun onRouteAutoDetectClick() {
+        viaTextField.text = "経路自動設定"
     }
 
     /** 片道ボタン押下時処理 */
@@ -398,6 +394,12 @@ class Ticket01Controller : Initializable {
     @FXML
     private fun onRescuedPersonBtnClick() {
         specialNoteTextField.text = PSGR_KBN_D007
+    }
+
+    /** 老年割引ボタン押下時処理 */
+    @FXML
+    private fun onSeniorDiscountBtnClick() {
+        specialNoteTextField.text = PSGR_KBN_D008
     }
 
     /** 高校通学ボタン押下時処理 */

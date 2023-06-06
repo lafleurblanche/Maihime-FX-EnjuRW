@@ -129,13 +129,13 @@
                               <Button mnemonicParsing="false" onAction="#onInputAdultNumberClick" prefHeight="77.0" prefWidth="119.0" text="大人&#10;人数入力" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="2" />
                               <Button mnemonicParsing="false" onAction="#onInputHalfNumberClick" prefHeight="77.0" prefWidth="108.0" text="半額&#10;人数入力" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="2" />
                               <Button mnemonicParsing="false" onAction="#onInputChildNumberClick" prefHeight="77.0" prefWidth="113.0" text="小児&#10;人数入力" textAlignment="CENTER" GridPane.columnIndex="5" GridPane.rowIndex="2" />
-                              <Button mnemonicParsing="false" onAction="#onRoute1Click" prefHeight="94.0" prefWidth="106.0" GridPane.rowIndex="3" />
+                              <Button mnemonicParsing="false" prefHeight="94.0" prefWidth="106.0" GridPane.rowIndex="3" />
                               <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="126.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
                               <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="134.0" GridPane.columnIndex="2" GridPane.rowIndex="3" />
                               <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="114.0" GridPane.columnIndex="3" GridPane.rowIndex="3" />
                               <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="117.0" GridPane.columnIndex="4" GridPane.rowIndex="3" />
                               <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="114.0" GridPane.columnIndex="5" GridPane.rowIndex="3" />
-                              <Button mnemonicParsing="false" prefHeight="87.0" prefWidth="106.0" text="経路&#10;自動設定" textAlignment="CENTER" GridPane.rowIndex="4" />
+                              <Button mnemonicParsing="false" onAction="#onRouteAutoDetectClick" prefHeight="87.0" prefWidth="106.0" text="経路&#10;自動設定" textAlignment="CENTER" GridPane.rowIndex="4" />
                               <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="118.0" text="経路入力" GridPane.columnIndex="1" GridPane.rowIndex="4" />
                               <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="119.0" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="4" />
                               <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="123.0" GridPane.columnIndex="3" GridPane.rowIndex="4" />
@@ -164,7 +164,7 @@
                               <Button mnemonicParsing="false" onAction="#onHandySingleBtnClick" prefHeight="104.0" prefWidth="127.0" text="身障&#10;単独" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="8" />
                               <Button mnemonicParsing="false" onAction="#onHandyCaregiverBtnClick" prefHeight="108.0" prefWidth="156.0" text="身障&#10;介助" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="8" />
                               <Button mnemonicParsing="false" onAction="#onRescuedPersonBtnClick" prefHeight="101.0" prefWidth="144.0" text="被救護者" GridPane.columnIndex="4" GridPane.rowIndex="8" />
-                              <Button mnemonicParsing="false" prefHeight="110.0" prefWidth="158.0" text="老年割引" GridPane.columnIndex="5" GridPane.rowIndex="8" />
+                              <Button mnemonicParsing="false" onAction="#onSeniorDiscountBtnClick" prefHeight="110.0" prefWidth="158.0" text="老年割引" GridPane.columnIndex="5" GridPane.rowIndex="8" />
                               <Button mnemonicParsing="false" onAction="#onSchoolPrivateScholarshipBtnClick" prefHeight="90.0" prefWidth="108.0" text="私学特待" GridPane.rowIndex="9" />
                               <Button mnemonicParsing="false" onAction="#onSchoolPrivateBtnClick" prefHeight="139.0" prefWidth="173.0" text="私学通学" GridPane.columnIndex="1" GridPane.rowIndex="9" />
                               <Button mnemonicParsing="false" onAction="#onSchoolBtnClick" prefHeight="196.0" prefWidth="220.0" text="高校通学" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="9" />

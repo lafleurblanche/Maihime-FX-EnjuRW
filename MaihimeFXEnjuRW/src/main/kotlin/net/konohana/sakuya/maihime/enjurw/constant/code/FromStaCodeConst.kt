@@ -16,6 +16,17 @@ class FromStaCodeConst  {
         const val FROMSTA_NAME_BTN10 = "笥谷"
         const val FROMSTA_NAME_BTN11 = "筏谷"
         const val FROMSTA_NAME_BTN12 = "瑞堂"
+        const val FROMSTA_NAME_BTN13 = "筮谷"
+        const val FROMSTA_NAME_BTN14 = "和瀬"
+        const val FROMSTA_NAME_BTN15 = "卯塚"
+        const val FROMSTA_NAME_BTN16 = "東卯塚"
+        const val FROMSTA_NAME_BTN17 = "筁谷"
+        const val FROMSTA_NAME_BTN18 = "筥谷"
+        const val FROMSTA_NAME_BTN19 = "粥坂"
+        const val FROMSTA_NAME_BTN20 = "笒谷"
+        const val FROMSTA_NAME_BTN21 = "箬谷"
+        const val FROMSTA_NAME_BTN22 = "梧谷"
+
 
         // 乗車駅コード
         const val FROMSTA_CODE_BTN01 = "RW1601"
@@ -30,6 +41,16 @@ class FromStaCodeConst  {
         const val FROMSTA_CODE_BTN10 = "RW1706"
         const val FROMSTA_CODE_BTN11 = "RW1708"
         const val FROMSTA_CODE_BTN12 = "RW1710"
+        const val FROMSTA_CODE_BTN13 = "RWXXXX"
+        const val FROMSTA_CODE_BTN14 = "RWXXXX"
+        const val FROMSTA_CODE_BTN15 = "RWXXXX"
+        const val FROMSTA_CODE_BTN16 = "RWXXXX"
+        const val FROMSTA_CODE_BTN17 = "RWXXXX"
+        const val FROMSTA_CODE_BTN18 = "RWXXXX"
+        const val FROMSTA_CODE_BTN19 = "RWXXXX"
+        const val FROMSTA_CODE_BTN20 = "RWXXXX"
+        const val FROMSTA_CODE_BTN21 = "RWXXXX"
+        const val FROMSTA_CODE_BTN22 = "RWXXXX"
 
     }
 }

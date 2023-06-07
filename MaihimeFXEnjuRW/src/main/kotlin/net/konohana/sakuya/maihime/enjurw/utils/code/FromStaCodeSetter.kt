@@ -136,3 +136,12 @@ fun getFromStaCodeBtn14(): Pair<String, String> {
 fun getFromStaCodeBtn15(): Pair<String, String> {
     return FromStaCodeConst.FROMSTA_NAME_BTN15 to FromStaCodeConst.FROMSTA_CODE_BTN15
 }
+
+/**
+ * ## 乗車駅情報を取得します。
+ * * BTN16(東卯塚)
+ * @return 乗車駅情報
+ */
+fun getFromStaCodeBtn16(): Pair<String, String> {
+    return FromStaCodeConst.FROMSTA_NAME_BTN16 to FromStaCodeConst.FROMSTA_CODE_BTN16
+}

@@ -8,6 +8,12 @@ plugins {
     id 'org.beryx.jlink' version '2.24.1'
 }
 
+kotlin {
+    jvmToolchain {
+        languageVersion.set(JavaLanguageVersion.of(17))
+    }
+}
+
 group 'net.konohana.sakuya.maihime.enjurw'
 version '1.0-SNAPSHOT'
 
@@ -19,21 +25,12 @@ ext {
     junitVersion = '5.8.2'
 }
 
-sourceCompatibility = '17'
-targetCompatibility = '17'
-
 tasks.withType(JavaCompile) {
     options.encoding = 'UTF-8'
 }
 
 application {
     mainClass = 'net.konohana.sakuya.maihime.enjurw.MaihimeFXEnjuRWCliApp'
-}
-
-[compileKotlin, compileTestKotlin].forEach {
-    it.kotlinOptions {
-        jvmTarget = '11'
-    }
 }
 
 javafx {

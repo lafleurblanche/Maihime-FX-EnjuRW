@@ -145,3 +145,30 @@ fun getFromStaCodeBtn15(): Pair<String, String> {
 fun getFromStaCodeBtn16(): Pair<String, String> {
     return FromStaCodeConst.FROMSTA_NAME_BTN16 to FromStaCodeConst.FROMSTA_CODE_BTN16
 }
+
+/**
+ * ## 乗車駅情報を取得します。
+ * * BTN17(筁谷)
+ * @return 乗車駅情報
+ */
+fun getFromStaCodeBtn17(): Pair<String, String> {
+    return FromStaCodeConst.FROMSTA_NAME_BTN17 to FromStaCodeConst.FROMSTA_CODE_BTN17
+}
+
+/**
+ * ## 乗車駅情報を取得します。
+ * * BTN18(筥谷)
+ * @return 乗車駅情報
+ */
+fun getFromStaCodeBtn18(): Pair<String, String> {
+    return FromStaCodeConst.FROMSTA_NAME_BTN18 to FromStaCodeConst.FROMSTA_CODE_BTN18
+}
+
+/**
+ * ## 乗車駅情報を取得します。
+ * * BTN19(粥坂)
+ * @return 乗車駅情報
+ */
+fun getFromStaCodeBtn19(): Pair<String, String> {
+    return FromStaCodeConst.FROMSTA_NAME_BTN19 to FromStaCodeConst.FROMSTA_CODE_BTN19
+}

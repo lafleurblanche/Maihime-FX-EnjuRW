@@ -39,6 +39,8 @@ import net.konohana.sakuya.maihime.enjurw.utils.code.getFromStaCodeBtn13
 import net.konohana.sakuya.maihime.enjurw.utils.code.getFromStaCodeBtn14
 import net.konohana.sakuya.maihime.enjurw.utils.code.getFromStaCodeBtn15
 import net.konohana.sakuya.maihime.enjurw.utils.code.getFromStaCodeBtn16
+import net.konohana.sakuya.maihime.enjurw.utils.code.getFromStaCodeBtn17
+import net.konohana.sakuya.maihime.enjurw.utils.code.getFromStaCodeBtn18
 import net.konohana.sakuya.maihime.enjurw.utils.date.getDayAfterTomorrowDate
 import net.konohana.sakuya.maihime.enjurw.utils.date.getDayMonthLaterDate
 import net.konohana.sakuya.maihime.enjurw.utils.date.getTodayDate
@@ -568,6 +570,24 @@ class Ticket01Controller : Initializable {
     @FXML
     private fun onFromStaBtn16Click() {
         val fromStaCodeText = getFromStaCodeBtn16()
+        fromStaTextField.text = fromStaCodeText.first
+        fromStaCodeTextField.text = fromStaCodeText.second
+        fromStaCode = fromStaCodeText.second
+    }
+
+    /** 筁谷(乗車駅)ボタン押下時処理 */
+    @FXML
+    private fun onFromStaBtn17Click() {
+        val fromStaCodeText = getFromStaCodeBtn17()
+        fromStaTextField.text = fromStaCodeText.first
+        fromStaCodeTextField.text = fromStaCodeText.second
+        fromStaCode = fromStaCodeText.second
+    }
+
+    /** 筥谷(乗車駅)ボタン押下時処理 */
+    @FXML
+    private fun onFromStaBtn18Click() {
+        val fromStaCodeText = getFromStaCodeBtn18()
         fromStaTextField.text = fromStaCodeText.first
         fromStaCodeTextField.text = fromStaCodeText.second
         fromStaCode = fromStaCodeText.second

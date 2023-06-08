@@ -5,12 +5,16 @@ import java.util.*
 import javafx.beans.property.BooleanProperty
 import javafx.beans.property.SimpleBooleanProperty
 import javafx.fxml.FXML
+import javafx.fxml.FXMLLoader
 import javafx.fxml.Initializable
+import javafx.scene.Scene
 import javafx.scene.control.Button
 import javafx.scene.control.ButtonType
 import javafx.scene.control.Label
 import javafx.scene.control.TextField
 import javafx.scene.control.TextInputDialog
+import javafx.stage.Stage
+import net.konohana.sakuya.maihime.enjurw.MaihimeFXEnjuRWApplication
 import net.konohana.sakuya.maihime.enjurw.constant.code.TicketTypeCodeConst
 import net.konohana.sakuya.maihime.enjurw.constant.psgrkbn.PassengerKbnConst.Companion.PSGR_KBN_D001
 import net.konohana.sakuya.maihime.enjurw.constant.psgrkbn.PassengerKbnConst.Companion.PSGR_KBN_D002
@@ -345,6 +349,12 @@ class Ticket01Controller : Initializable {
     /** 乗車駅設定ボタン押下時処理 */
     @FXML
     private fun onSetFromStaNameClick() {
+        val stage = Stage()
+        val fxmlLoader = FXMLLoader(MaihimeFXEnjuRWApplication::class.java.getResource("inquiry/fromsta-inquiry.fxml"))
+        val scene = Scene(fxmlLoader.load(), 585.0, 620.0)
+        stage.title = "舞姫-乗車券発券システムBeta-"
+        stage.scene = scene
+        stage.show()
     }
 
     /** 乗車駅設定ボタン押下時処理 */

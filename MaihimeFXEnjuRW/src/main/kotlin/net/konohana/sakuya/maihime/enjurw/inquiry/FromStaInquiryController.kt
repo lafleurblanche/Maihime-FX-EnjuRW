@@ -63,6 +63,21 @@ class FromStaInquiryController {
 
     @FXML
     private fun onBtn02Click() {
+        // WebViewの宣言
+        val webView = WebView()
+        val webEngine = webView.engine
+        webEngine.isJavaScriptEnabled = true
+        webEngine.load(WebViewUrlConst.WEBVIEW_URL_ENJURW02)
+
+        val vbox = VBox()
+        vbox.children.addAll(webView)
+        val stage = Stage()
+        val scene = Scene(vbox)
+        stage.width = 400.0
+        stage.height = 650.0
+        stage.title = ""
+        stage.scene = scene
+        stage.show()
     }
 
     @FXML

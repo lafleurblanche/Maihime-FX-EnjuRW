@@ -7,6 +7,7 @@ import javafx.scene.control.Label
 import javafx.scene.layout.VBox
 import javafx.scene.web.WebView
 import javafx.stage.Stage
+import net.konohana.sakuya.maihime.enjurw.constant.webview.WebViewUrlConst
 
 /**
  * ## FXMLコントローラクラス
@@ -47,7 +48,7 @@ class FromStaInquiryController {
         val webView = WebView()
         val webEngine = webView.engine
         webEngine.isJavaScriptEnabled = true
-        webEngine.load("http://localhost:8080/")
+        webEngine.load(WebViewUrlConst.WEBVIEW_URL_ENJURW01)
 
         val vbox = VBox()
         vbox.children.addAll(webView)
@@ -62,6 +63,21 @@ class FromStaInquiryController {
 
     @FXML
     private fun onBtn02Click() {
+        // WebViewの宣言
+        val webView = WebView()
+        val webEngine = webView.engine
+        webEngine.isJavaScriptEnabled = true
+        webEngine.load(WebViewUrlConst.WEBVIEW_URL_ENJURW02)
+
+        val vbox = VBox()
+        vbox.children.addAll(webView)
+        val stage = Stage()
+        val scene = Scene(vbox)
+        stage.width = 400.0
+        stage.height = 650.0
+        stage.title = ""
+        stage.scene = scene
+        stage.show()
     }
 
     @FXML

@@ -136,4 +136,62 @@ class FromStaInquiryController {
         stage.scene = scene
         stage.show()
     }
+
+    @FXML
+    private fun onBtn06Click() {
+        // WebViewの宣言
+        val webView = WebView()
+        val webEngine = webView.engine
+        webEngine.isJavaScriptEnabled = true
+        webEngine.load(WebViewUrlConst.WEBVIEW_URL_ENJURW06)
+
+        val vbox = VBox()
+        vbox.children.addAll(webView)
+        val stage = Stage()
+        val scene = Scene(vbox)
+        stage.width = 400.0
+        stage.height = 650.0
+        stage.title = ""
+        stage.scene = scene
+        stage.show()
+
+    }
+
+    @FXML
+    private fun onBtn07Click() {
+        // WebViewの宣言
+        val webView = WebView()
+        val webEngine = webView.engine
+        webEngine.isJavaScriptEnabled = true
+        webEngine.load(WebViewUrlConst.WEBVIEW_URL_ENJURW07)
+
+        val vbox = VBox()
+        vbox.children.addAll(webView)
+        val stage = Stage()
+        val scene = Scene(vbox)
+        stage.width = 400.0
+        stage.height = 650.0
+        stage.title = ""
+        stage.scene = scene
+        stage.show()
+    }
+
+    @FXML
+    private fun onBtn08Click() {
+        // WebViewの宣言
+        val webView = WebView()
+        val webEngine = webView.engine
+        webEngine.isJavaScriptEnabled = true
+        webEngine.load(WebViewUrlConst.WEBVIEW_URL_ENJURW08)
+
+        val vbox = VBox()
+        vbox.children.addAll(webView)
+        val stage = Stage()
+        val scene = Scene(vbox)
+        stage.width = 400.0
+        stage.height = 650.0
+        stage.title = ""
+        stage.scene = scene
+        stage.show()
+    }
 }

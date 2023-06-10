@@ -56,17 +56,17 @@
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="btn06" mnemonicParsing="false" prefHeight="211.0" prefWidth="268.0" text="筁谷線" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                <Button fx:id="btn06" mnemonicParsing="false" onAction="#onBtn06Click" prefHeight="211.0" prefWidth="268.0" text="筁谷線" GridPane.columnIndex="1" GridPane.rowIndex="1">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="btn07" mnemonicParsing="false" prefHeight="199.0" prefWidth="263.0" text="筥谷線" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                <Button fx:id="btn07" mnemonicParsing="false" onAction="#onBtn07Click" prefHeight="199.0" prefWidth="263.0" text="筥谷線" GridPane.columnIndex="2" GridPane.rowIndex="1">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="btn08" mnemonicParsing="false" prefHeight="232.0" prefWidth="263.0" text="笒谷線" GridPane.columnIndex="3" GridPane.rowIndex="1">
+                <Button fx:id="btn08" mnemonicParsing="false" onAction="#onBtn08Click" prefHeight="232.0" prefWidth="263.0" text="笒谷線" GridPane.columnIndex="3" GridPane.rowIndex="1">
                     <font>
                         <Font size="18.0" />
                     </font>

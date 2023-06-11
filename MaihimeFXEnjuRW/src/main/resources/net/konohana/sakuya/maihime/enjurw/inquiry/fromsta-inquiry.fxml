@@ -91,37 +91,37 @@
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="btn13" mnemonicParsing="false" prefHeight="221.0" prefWidth="324.0" text="玿谷線" GridPane.rowIndex="3">
+                <Button fx:id="btn13" mnemonicParsing="false" onAction="#onBtn13Click" prefHeight="221.0" prefWidth="324.0" text="玿谷線" GridPane.rowIndex="3">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="btn14" mnemonicParsing="false" prefHeight="292.0" prefWidth="424.0" text="珮谷線" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                <Button fx:id="btn14" mnemonicParsing="false" onAction="#onBtn14Click" prefHeight="292.0" prefWidth="424.0" text="珮谷線" GridPane.columnIndex="1" GridPane.rowIndex="3">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="btn15" mnemonicParsing="false" prefHeight="189.0" prefWidth="302.0" text="荍谷線" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                <Button fx:id="btn15" mnemonicParsing="false" onAction="#onBtn15Click" prefHeight="189.0" prefWidth="302.0" text="荍谷線" GridPane.columnIndex="2" GridPane.rowIndex="3">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="btn16" mnemonicParsing="false" prefHeight="217.0" prefWidth="316.0" text="槐谷線" GridPane.columnIndex="3" GridPane.rowIndex="3">
+                <Button fx:id="btn16" mnemonicParsing="false" onAction="#onBtn16Click" prefHeight="217.0" prefWidth="316.0" text="槐谷線" GridPane.columnIndex="3" GridPane.rowIndex="3">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button mnemonicParsing="false" prefHeight="258.0" prefWidth="390.0" text="拯川線" GridPane.rowIndex="4">
+                <Button fx:id="btn17" mnemonicParsing="false" onAction="#onBtn17Click" prefHeight="258.0" prefWidth="390.0" text="拯川線" GridPane.rowIndex="4">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button mnemonicParsing="false" prefHeight="273.0" prefWidth="367.0" text="卯塚線" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                <Button fx:id="btn18" mnemonicParsing="false" onAction="#onBtn18Click" prefHeight="273.0" prefWidth="367.0" text="卯塚線" GridPane.columnIndex="1" GridPane.rowIndex="4">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button mnemonicParsing="false" prefHeight="264.0" prefWidth="341.0" text="瑞堂線" GridPane.columnIndex="2" GridPane.rowIndex="4">
+                <Button fx:id="btn19" mnemonicParsing="false" onAction="#onBtn19Click" prefHeight="264.0" prefWidth="341.0" text="瑞堂線" GridPane.columnIndex="2" GridPane.rowIndex="4">
                     <font>
                         <Font size="18.0" />
                     </font>

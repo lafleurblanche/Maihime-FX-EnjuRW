@@ -18,6 +18,9 @@ class WebViewUrlConst {
         const val WEBVIEW_URL_ENJURW14 = "http://localhost:8080/enjurw14"
         const val WEBVIEW_URL_ENJURW15 = "http://localhost:8080/enjurw15"
         const val WEBVIEW_URL_ENJURW16 = "http://localhost:8080/enjurw16"
+        const val WEBVIEW_URL_ENJURW17 = "http://localhost:8080/enjurw17"
+        const val WEBVIEW_URL_ENJURW18 = "http://localhost:8080/enjurw18"
+        const val WEBVIEW_URL_ENJURW19 = "http://localhost:8080/enjurw19"
 
     }
 }

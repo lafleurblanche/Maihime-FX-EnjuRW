@@ -66,6 +66,15 @@ class FromStaInquiryController {
     @FXML
     private lateinit var  btn16: Button
 
+    @FXML
+    private lateinit var  btn17: Button
+
+    @FXML
+    private lateinit var  btn18: Button
+
+    @FXML
+    private lateinit var  btn19: Button
+
 
     @FXML
     private fun onBtn01Click() {
@@ -284,6 +293,139 @@ class FromStaInquiryController {
         val webEngine = webView.engine
         webEngine.isJavaScriptEnabled = true
         webEngine.load(WebViewUrlConst.WEBVIEW_URL_ENJURW12)
+
+        val vbox = VBox()
+        vbox.children.addAll(webView)
+        val stage = Stage()
+        val scene = Scene(vbox)
+        stage.width = 400.0
+        stage.height = 650.0
+        stage.title = ""
+        stage.scene = scene
+        stage.show()
+    }
+
+    @FXML
+    private fun onBtn13Click() {
+        // WebViewの宣言
+        val webView = WebView()
+        val webEngine = webView.engine
+        webEngine.isJavaScriptEnabled = true
+        webEngine.load(WebViewUrlConst.WEBVIEW_URL_ENJURW13)
+
+        val vbox = VBox()
+        vbox.children.addAll(webView)
+        val stage = Stage()
+        val scene = Scene(vbox)
+        stage.width = 400.0
+        stage.height = 650.0
+        stage.title = ""
+        stage.scene = scene
+        stage.show()
+    }
+
+    @FXML
+    private fun onBtn14Click() {
+        // WebViewの宣言
+        val webView = WebView()
+        val webEngine = webView.engine
+        webEngine.isJavaScriptEnabled = true
+        webEngine.load(WebViewUrlConst.WEBVIEW_URL_ENJURW14)
+
+        val vbox = VBox()
+        vbox.children.addAll(webView)
+        val stage = Stage()
+        val scene = Scene(vbox)
+        stage.width = 400.0
+        stage.height = 650.0
+        stage.title = ""
+        stage.scene = scene
+        stage.show()
+    }
+
+    @FXML
+    private fun onBtn15Click() {
+        // WebViewの宣言
+        val webView = WebView()
+        val webEngine = webView.engine
+        webEngine.isJavaScriptEnabled = true
+        webEngine.load(WebViewUrlConst.WEBVIEW_URL_ENJURW15)
+
+        val vbox = VBox()
+        vbox.children.addAll(webView)
+        val stage = Stage()
+        val scene = Scene(vbox)
+        stage.width = 400.0
+        stage.height = 650.0
+        stage.title = ""
+        stage.scene = scene
+        stage.show()
+    }
+
+    @FXML
+    private fun onBtn16Click() {
+        // WebViewの宣言
+        val webView = WebView()
+        val webEngine = webView.engine
+        webEngine.isJavaScriptEnabled = true
+        webEngine.load(WebViewUrlConst.WEBVIEW_URL_ENJURW16)
+
+        val vbox = VBox()
+        vbox.children.addAll(webView)
+        val stage = Stage()
+        val scene = Scene(vbox)
+        stage.width = 400.0
+        stage.height = 650.0
+        stage.title = ""
+        stage.scene = scene
+        stage.show()
+    }
+
+    @FXML
+    private fun onBtn17Click() {
+        // WebViewの宣言
+        val webView = WebView()
+        val webEngine = webView.engine
+        webEngine.isJavaScriptEnabled = true
+        webEngine.load(WebViewUrlConst.WEBVIEW_URL_ENJURW17)
+
+        val vbox = VBox()
+        vbox.children.addAll(webView)
+        val stage = Stage()
+        val scene = Scene(vbox)
+        stage.width = 400.0
+        stage.height = 650.0
+        stage.title = ""
+        stage.scene = scene
+        stage.show()
+    }
+
+    @FXML
+    private fun onBtn18Click() {
+        // WebViewの宣言
+        val webView = WebView()
+        val webEngine = webView.engine
+        webEngine.isJavaScriptEnabled = true
+        webEngine.load(WebViewUrlConst.WEBVIEW_URL_ENJURW18)
+
+        val vbox = VBox()
+        vbox.children.addAll(webView)
+        val stage = Stage()
+        val scene = Scene(vbox)
+        stage.width = 400.0
+        stage.height = 650.0
+        stage.title = ""
+        stage.scene = scene
+        stage.show()
+    }
+
+    @FXML
+    private fun onBtn19Click() {
+        // WebViewの宣言
+        val webView = WebView()
+        val webEngine = webView.engine
+        webEngine.isJavaScriptEnabled = true
+        webEngine.load(WebViewUrlConst.WEBVIEW_URL_ENJURW19)
 
         val vbox = VBox()
         vbox.children.addAll(webView)

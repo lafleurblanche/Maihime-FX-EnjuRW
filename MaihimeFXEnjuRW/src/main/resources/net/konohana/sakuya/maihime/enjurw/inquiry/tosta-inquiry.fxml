@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="617.0" prefWidth="585.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="net.konohana.sakuya.maihime.enjurw.inquiry.FromStaInquiryController">
+<AnchorPane prefHeight="617.0" prefWidth="585.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="net.konohana.sakuya.maihime.enjurw.inquiry.ToStaInquiryController">
     <children>
         <Label layoutX="25.0" layoutY="29.0" prefHeight="33.0" prefWidth="263.0" text="降車駅コード照会 &gt; えんじゅ交通">
             <font>

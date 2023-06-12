@@ -56,7 +56,6 @@ import net.konohana.sakuya.maihime.enjurw.utils.date.getDayMonthLaterDate
 import net.konohana.sakuya.maihime.enjurw.utils.date.getTodayDate
 import net.konohana.sakuya.maihime.enjurw.utils.date.getTomorrowDate
 
-
 /**
  * ## FXMLコントローラー
  * * 乗車券要求画面
@@ -352,27 +351,32 @@ class Ticket01Controller : Initializable {
         val stage = Stage()
         val fxmlLoader = FXMLLoader(MaihimeFXEnjuRWApplication::class.java.getResource("inquiry/fromsta-inquiry.fxml"))
         val scene = Scene(fxmlLoader.load(), 585.0, 620.0)
-        stage.title = "舞姫-乗車券発券システムBeta-"
+        stage.title = "乗車駅照会"
         stage.scene = scene
         stage.show()
     }
 
-    /** 乗車駅設定ボタン押下時処理 */
+    /** 降車駅設定ボタン押下時処理 */
     @FXML
     private fun onSetToStaNameClick() {
-
+        val stage = Stage()
+        val fxmlLoader = FXMLLoader(MaihimeFXEnjuRWApplication::class.java.getResource("inquiry/tosta-inquiry.fxml"))
+        val scene = Scene(fxmlLoader.load(), 585.0, 620.0)
+        stage.title = "降車駅照会"
+        stage.scene = scene
+        stage.show()
     }
 
     /** 通信試験ボタン押下時修正 */
     @FXML
     private fun onSendTestClick() {
-
+        TODO("not implemented.")
     }
 
     /** 通信試験2ボタン押下時修正 */
     @FXML
     private fun onSendTest2Click() {
-
+        TODO("not implemented.")
     }
 
     /** 駅名カナボタン押下時処理 */
@@ -699,6 +703,6 @@ class Ticket01Controller : Initializable {
         ticketTypeTextField.text = ""
     }
     override fun initialize(location: URL?, resources: ResourceBundle?) {
-        // Nothing
+        fromStaCode = "乗車駅コード"
     }
 }

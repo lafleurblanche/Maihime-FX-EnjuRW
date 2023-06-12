@@ -26,6 +26,7 @@ import net.konohana.sakuya.maihime.enjurw.constant.psgrkbn.PassengerKbnConst.Com
 import net.konohana.sakuya.maihime.enjurw.constant.psgrkbn.PassengerKbnConst.Companion.PSGR_KBN_D008
 import net.konohana.sakuya.maihime.enjurw.constant.psgrkbn.PassengerKbnConst.Companion.PSGR_KBN_PP001
 import net.konohana.sakuya.maihime.enjurw.constant.psgrkbn.PassengerKbnConst.Companion.PSGR_KBN_PP002
+import net.konohana.sakuya.maihime.enjurw.service.CerintheApiService
 import net.konohana.sakuya.maihime.enjurw.utils.checkInputValue
 import net.konohana.sakuya.maihime.enjurw.utils.code.getFromStaCodeBtn01
 import net.konohana.sakuya.maihime.enjurw.utils.code.getFromStaCodeBtn02
@@ -370,7 +371,8 @@ class Ticket01Controller : Initializable {
     /** 通信試験ボタン押下時修正 */
     @FXML
     private fun onSendTestClick() {
-        TODO("not implemented.")
+        val cerintheApiService = CerintheApiService()
+        specialNoteTextField.text = cerintheApiService.postTicketRequest(fromStaCode)
     }
 
     /** 通信試験2ボタン押下時修正 */

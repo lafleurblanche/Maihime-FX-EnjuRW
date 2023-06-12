@@ -148,7 +148,7 @@
                               <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="113.0" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="5" />
                               <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="115.0" GridPane.columnIndex="5" GridPane.rowIndex="5" />
                               <Button mnemonicParsing="false" onAction="#onSetFromStaNameClick" prefHeight="77.0" prefWidth="117.0" text="乗車駅&#10;照会" textAlignment="CENTER" GridPane.rowIndex="6" />
-                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="111.0" text="降車駅&#10;照会" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                              <Button mnemonicParsing="false" onAction="#onSetToStaNameClick" prefHeight="77.0" prefWidth="111.0" text="降車駅&#10;照会" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="6" />
                               <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="116.0" text="経路情報&#10;照会" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="6" />
                               <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="113.0" GridPane.columnIndex="3" GridPane.rowIndex="6" />
                               <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="117.0" GridPane.columnIndex="4" GridPane.rowIndex="6" />

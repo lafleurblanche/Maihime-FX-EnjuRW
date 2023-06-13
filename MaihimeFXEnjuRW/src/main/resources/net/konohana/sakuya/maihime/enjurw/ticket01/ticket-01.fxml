@@ -389,7 +389,7 @@
                            <children>
                               <Button mnemonicParsing="false" onAction="#onToStaBtn01Click" prefHeight="77.0" prefWidth="111.0" text="苆谷" />
                               <Button mnemonicParsing="false" onAction="#onToStaBtn02Click" prefHeight="77.0" prefWidth="119.0" text="東苆谷" GridPane.columnIndex="1" />
-                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="135.0" text="茄谷" GridPane.columnIndex="2" />
+                              <Button mnemonicParsing="false" onAction="#onToStaBtn03Click" prefHeight="77.0" prefWidth="135.0" text="茄谷" GridPane.columnIndex="2" />
                               <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="119.0" text="上茄谷" GridPane.columnIndex="3" />
                               <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="106.0" text="笥谷" GridPane.columnIndex="4" />
                               <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="108.0" text="鵩山" textAlignment="CENTER" GridPane.columnIndex="5" />

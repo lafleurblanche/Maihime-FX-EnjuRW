@@ -19,3 +19,12 @@ fun getToStaCodeBtn01(): Pair<String, String> {
 fun getToStaCodeBtn02(): Pair<String, String> {
     return ToStaCodeConst.TOSTA_NAME_BTN02 to ToStaCodeConst.TOSTA_CODE_BTN02
 }
+
+/**
+ * ## 降車駅情報を取得します。
+ * * BTN03(茄谷)
+ * @return 降車駅情報
+ */
+fun getToStaCodeBtn03(): Pair<String, String> {
+    return ToStaCodeConst.TOSTA_NAME_BTN03 to ToStaCodeConst.TOSTA_CODE_BTN03
+}

@@ -27,6 +27,7 @@ import net.konohana.sakuya.maihime.enjurw.constant.psgrkbn.PassengerKbnConst.Com
 import net.konohana.sakuya.maihime.enjurw.constant.psgrkbn.PassengerKbnConst.Companion.PSGR_KBN_PP001
 import net.konohana.sakuya.maihime.enjurw.constant.psgrkbn.PassengerKbnConst.Companion.PSGR_KBN_PP002
 import net.konohana.sakuya.maihime.enjurw.service.CerintheApiService
+import net.konohana.sakuya.maihime.enjurw.service.InquiryApiService
 import net.konohana.sakuya.maihime.enjurw.utils.checkInputValue
 import net.konohana.sakuya.maihime.enjurw.utils.code.getFromStaCodeBtn01
 import net.konohana.sakuya.maihime.enjurw.utils.code.getFromStaCodeBtn02
@@ -379,7 +380,9 @@ class Ticket01Controller : Initializable {
     /** 通信試験2ボタン押下時修正 */
     @FXML
     private fun onSendTest2Click() {
-        TODO("not implemented.")
+        val inquiryApiService = InquiryApiService()
+        val apiResponse = inquiryApiService.getFromStaName(fromStaCodeTextField.text)
+        fromStaTextField.text = apiResponse?.fromStaName
     }
 
     /** 駅名カナボタン押下時処理 */

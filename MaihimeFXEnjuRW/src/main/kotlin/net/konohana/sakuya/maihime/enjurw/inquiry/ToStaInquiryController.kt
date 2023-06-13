@@ -191,27 +191,42 @@ class ToStaInquiryController {
 
     @FXML
     private fun onBtn15Click() {
-
+        showWebViewContent(
+            WebViewUrlConst.WEBVIEW_URL_TOSTA_ENJURW15,
+            WebViewTitleConst.WEBVIEW_TITLE_ENJURW15_TOSTA
+        )
     }
 
     @FXML
     private fun onBtn16Click() {
-
+        showWebViewContent(
+            WebViewUrlConst.WEBVIEW_URL_TOSTA_ENJURW16,
+            WebViewTitleConst.WEBVIEW_TITLE_ENJURW16_TOSTA
+        )
     }
 
     @FXML
     private fun onBtn17Click() {
-
+        showWebViewContent(
+            WebViewUrlConst.WEBVIEW_URL_TOSTA_ENJURW17,
+            WebViewTitleConst.WEBVIEW_TITLE_ENJURW17_TOSTA
+        )
     }
 
     @FXML
     private fun onBtn18Click() {
-
+        showWebViewContent(
+            WebViewUrlConst.WEBVIEW_URL_TOSTA_ENJURW18,
+            WebViewTitleConst.WEBVIEW_TITLE_ENJURW18_TOSTA
+        )
     }
 
     @FXML
     private fun onBtn19Click() {
-
+        showWebViewContent(
+            WebViewUrlConst.WEBVIEW_URL_TOSTA_ENJURW19,
+            WebViewTitleConst.WEBVIEW_TITLE_ENJURW19_TOSTA
+        )
     }
 
     private fun showWebViewContent(url: String, title: String) {

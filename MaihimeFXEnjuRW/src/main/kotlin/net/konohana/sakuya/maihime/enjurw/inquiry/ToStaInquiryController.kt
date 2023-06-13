@@ -7,6 +7,7 @@ import javafx.scene.control.Label
 import javafx.scene.layout.VBox
 import javafx.scene.web.WebView
 import javafx.stage.Stage
+import net.konohana.sakuya.maihime.enjurw.constant.title.WebViewTitleConst
 import net.konohana.sakuya.maihime.enjurw.constant.webview.WebViewUrlConst
 
 /**
@@ -154,53 +155,192 @@ class ToStaInquiryController {
 
     @FXML
     private fun onBtn05Click() {
+        // WebViewの宣言
+        val webView = WebView()
+        val webEngine = webView.engine
+        webEngine.isJavaScriptEnabled = true
+        webEngine.load(WebViewUrlConst.WEBVIEW_URL_TOSTA_ENJURW05)
 
+        val vbox = VBox()
+        vbox.children.addAll(webView)
+        val stage = Stage()
+        val scene = Scene(vbox)
+        stage.width = 400.0
+        stage.height = 650.0
+        stage.title = ""
+        stage.scene = scene
+        stage.show()
     }
 
     @FXML
     private fun onBtn06Click() {
+        // WebViewの宣言
+        val webView = WebView()
+        val webEngine = webView.engine
+        webEngine.isJavaScriptEnabled = true
+        webEngine.load(WebViewUrlConst.WEBVIEW_URL_TOSTA_ENJURW06)
 
-
+        val vbox = VBox()
+        vbox.children.addAll(webView)
+        val stage = Stage()
+        val scene = Scene(vbox)
+        stage.width = 400.0
+        stage.height = 650.0
+        stage.title = ""
+        stage.scene = scene
+        stage.show()
     }
 
     @FXML
     private fun onBtn07Click() {
+        // WebViewの宣言
+        val webView = WebView()
+        val webEngine = webView.engine
+        webEngine.isJavaScriptEnabled = true
+        webEngine.load(WebViewUrlConst.WEBVIEW_URL_TOSTA_ENJURW07)
 
+        val vbox = VBox()
+        vbox.children.addAll(webView)
+        val stage = Stage()
+        val scene = Scene(vbox)
+        stage.width = 400.0
+        stage.height = 650.0
+        stage.title = ""
+        stage.scene = scene
+        stage.show()
     }
 
     @FXML
     private fun onBtn08Click() {
+        // WebViewの宣言
+        val webView = WebView()
+        val webEngine = webView.engine
+        webEngine.isJavaScriptEnabled = true
+        webEngine.load(WebViewUrlConst.WEBVIEW_URL_TOSTA_ENJURW08)
 
+        val vbox = VBox()
+        vbox.children.addAll(webView)
+        val stage = Stage()
+        val scene = Scene(vbox)
+        stage.width = 400.0
+        stage.height = 650.0
+        stage.title = ""
+        stage.scene = scene
+        stage.show()
     }
 
     @FXML
     private fun onBtn09Click() {
+        // WebViewの宣言
+        val webView = WebView()
+        val webEngine = webView.engine
+        webEngine.isJavaScriptEnabled = true
+        webEngine.load(WebViewUrlConst.WEBVIEW_URL_TOSTA_ENJURW09)
 
+        val vbox = VBox()
+        vbox.children.addAll(webView)
+        val stage = Stage()
+        val scene = Scene(vbox)
+        stage.width = 400.0
+        stage.height = 650.0
+        stage.title = ""
+        stage.scene = scene
+        stage.show()
     }
 
     @FXML
     private fun onBtn10Click() {
+        // WebViewの宣言
+        val webView = WebView()
+        val webEngine = webView.engine
+        webEngine.isJavaScriptEnabled = true
+        webEngine.load(WebViewUrlConst.WEBVIEW_URL_TOSTA_ENJURW10)
 
+        val vbox = VBox()
+        vbox.children.addAll(webView)
+        val stage = Stage()
+        val scene = Scene(vbox)
+        stage.width = 400.0
+        stage.height = 650.0
+        stage.title = ""
+        stage.scene = scene
+        stage.show()
     }
 
     @FXML
     private fun onBtn11Click() {
+        // WebViewの宣言
+        val webView = WebView()
+        val webEngine = webView.engine
+        webEngine.isJavaScriptEnabled = true
+        webEngine.load(WebViewUrlConst.WEBVIEW_URL_TOSTA_ENJURW11)
 
+        val vbox = VBox()
+        vbox.children.addAll(webView)
+        val stage = Stage()
+        val scene = Scene(vbox)
+        stage.width = 400.0
+        stage.height = 650.0
+        stage.title = ""
+        stage.scene = scene
+        stage.show()
     }
 
     @FXML
     private fun onBtn12Click() {
+        // WebViewの宣言
+        val webView = WebView()
+        val webEngine = webView.engine
+        webEngine.isJavaScriptEnabled = true
+        webEngine.load(WebViewUrlConst.WEBVIEW_URL_TOSTA_ENJURW12)
 
+        val vbox = VBox()
+        vbox.children.addAll(webView)
+        val stage = Stage()
+        val scene = Scene(vbox)
+        stage.width = 400.0
+        stage.height = 650.0
+        stage.title = ""
+        stage.scene = scene
+        stage.show()
     }
 
     @FXML
     private fun onBtn13Click() {
+        // WebViewの宣言
+        val webView = WebView()
+        val webEngine = webView.engine
+        webEngine.isJavaScriptEnabled = true
+        webEngine.load(WebViewUrlConst.WEBVIEW_URL_TOSTA_ENJURW13)
 
+        val vbox = VBox()
+        vbox.children.addAll(webView)
+        val stage = Stage()
+        val scene = Scene(vbox)
+        stage.width = 400.0
+        stage.height = 650.0
+        stage.title = ""
+        stage.scene = scene
+        stage.show()
     }
 
     @FXML
     private fun onBtn14Click() {
+        // WebViewの宣言
+        val webView = WebView()
+        val webEngine = webView.engine
+        webEngine.isJavaScriptEnabled = true
+        webEngine.load(WebViewUrlConst.WEBVIEW_URL_TOSTA_ENJURW14)
 
+        val vbox = VBox()
+        vbox.children.addAll(webView)
+        val stage = Stage()
+        val scene = Scene(vbox)
+        stage.width = 400.0
+        stage.height = 650.0
+        stage.title = ""
+        stage.scene = scene
+        stage.show()
     }
 
     @FXML

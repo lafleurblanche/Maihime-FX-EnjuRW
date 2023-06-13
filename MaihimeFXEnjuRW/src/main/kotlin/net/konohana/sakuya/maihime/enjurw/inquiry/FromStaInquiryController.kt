@@ -7,6 +7,7 @@ import javafx.scene.control.Label
 import javafx.scene.layout.VBox
 import javafx.scene.web.WebView
 import javafx.stage.Stage
+import net.konohana.sakuya.maihime.enjurw.constant.title.WebViewTitleConst
 import net.konohana.sakuya.maihime.enjurw.constant.webview.WebViewUrlConst
 
 /**
@@ -90,7 +91,7 @@ class FromStaInquiryController {
         val scene = Scene(vbox)
         stage.width = 400.0
         stage.height = 650.0
-        stage.title = ""
+        stage.title = WebViewTitleConst.WEBVIEW_TITLE_ENJURW01_FROMSTA
         stage.scene = scene
         stage.show()
     }
@@ -109,7 +110,7 @@ class FromStaInquiryController {
         val scene = Scene(vbox)
         stage.width = 400.0
         stage.height = 650.0
-        stage.title = ""
+        stage.title = WebViewTitleConst.WEBVIEW_TITLE_ENJURW02_FROMSTA
         stage.scene = scene
         stage.show()
     }
@@ -128,7 +129,7 @@ class FromStaInquiryController {
         val scene = Scene(vbox)
         stage.width = 400.0
         stage.height = 650.0
-        stage.title = ""
+        stage.title = WebViewTitleConst.WEBVIEW_TITLE_ENJURW03_FROMSTA
         stage.scene = scene
         stage.show()
     }
@@ -147,7 +148,7 @@ class FromStaInquiryController {
         val scene = Scene(vbox)
         stage.width = 400.0
         stage.height = 650.0
-        stage.title = ""
+        stage.title = WebViewTitleConst.WEBVIEW_TITLE_ENJURW04_FROMSTA
         stage.scene = scene
         stage.show()
     }
@@ -166,7 +167,7 @@ class FromStaInquiryController {
         val scene = Scene(vbox)
         stage.width = 400.0
         stage.height = 650.0
-        stage.title = ""
+        stage.title = WebViewTitleConst.WEBVIEW_TITLE_ENJURW05_FROMSTA
         stage.scene = scene
         stage.show()
     }
@@ -185,7 +186,7 @@ class FromStaInquiryController {
         val scene = Scene(vbox)
         stage.width = 400.0
         stage.height = 650.0
-        stage.title = ""
+        stage.title = WebViewTitleConst.WEBVIEW_TITLE_ENJURW06_FROMSTA
         stage.scene = scene
         stage.show()
 
@@ -205,7 +206,7 @@ class FromStaInquiryController {
         val scene = Scene(vbox)
         stage.width = 400.0
         stage.height = 650.0
-        stage.title = ""
+        stage.title = WebViewTitleConst.WEBVIEW_TITLE_ENJURW07_FROMSTA
         stage.scene = scene
         stage.show()
     }
@@ -224,7 +225,7 @@ class FromStaInquiryController {
         val scene = Scene(vbox)
         stage.width = 400.0
         stage.height = 650.0
-        stage.title = ""
+        stage.title = WebViewTitleConst.WEBVIEW_TITLE_ENJURW08_FROMSTA
         stage.scene = scene
         stage.show()
     }
@@ -243,7 +244,7 @@ class FromStaInquiryController {
         val scene = Scene(vbox)
         stage.width = 400.0
         stage.height = 650.0
-        stage.title = ""
+        stage.title = WebViewTitleConst.WEBVIEW_TITLE_ENJURW09_FROMSTA
         stage.scene = scene
         stage.show()
     }
@@ -262,7 +263,7 @@ class FromStaInquiryController {
         val scene = Scene(vbox)
         stage.width = 400.0
         stage.height = 650.0
-        stage.title = ""
+        stage.title = WebViewTitleConst.WEBVIEW_TITLE_ENJURW10_FROMSTA
         stage.scene = scene
         stage.show()
     }
@@ -281,7 +282,7 @@ class FromStaInquiryController {
         val scene = Scene(vbox)
         stage.width = 400.0
         stage.height = 650.0
-        stage.title = ""
+        stage.title = WebViewTitleConst.WEBVIEW_TITLE_ENJURW11_FROMSTA
         stage.scene = scene
         stage.show()
     }
@@ -300,7 +301,7 @@ class FromStaInquiryController {
         val scene = Scene(vbox)
         stage.width = 400.0
         stage.height = 650.0
-        stage.title = ""
+        stage.title = WebViewTitleConst.WEBVIEW_TITLE_ENJURW12_FROMSTA
         stage.scene = scene
         stage.show()
     }
@@ -319,7 +320,7 @@ class FromStaInquiryController {
         val scene = Scene(vbox)
         stage.width = 400.0
         stage.height = 650.0
-        stage.title = ""
+        stage.title = WebViewTitleConst.WEBVIEW_TITLE_ENJURW13_FROMSTA
         stage.scene = scene
         stage.show()
     }
@@ -338,7 +339,7 @@ class FromStaInquiryController {
         val scene = Scene(vbox)
         stage.width = 400.0
         stage.height = 650.0
-        stage.title = ""
+        stage.title = WebViewTitleConst.WEBVIEW_TITLE_ENJURW14_FROMSTA
         stage.scene = scene
         stage.show()
     }
@@ -357,7 +358,7 @@ class FromStaInquiryController {
         val scene = Scene(vbox)
         stage.width = 400.0
         stage.height = 650.0
-        stage.title = ""
+        stage.title = WebViewTitleConst.WEBVIEW_TITLE_ENJURW15_FROMSTA
         stage.scene = scene
         stage.show()
     }
@@ -376,7 +377,7 @@ class FromStaInquiryController {
         val scene = Scene(vbox)
         stage.width = 400.0
         stage.height = 650.0
-        stage.title = ""
+        stage.title = WebViewTitleConst.WEBVIEW_TITLE_ENJURW16_FROMSTA
         stage.scene = scene
         stage.show()
     }
@@ -395,7 +396,7 @@ class FromStaInquiryController {
         val scene = Scene(vbox)
         stage.width = 400.0
         stage.height = 650.0
-        stage.title = ""
+        stage.title = WebViewTitleConst.WEBVIEW_TITLE_ENJURW17_FROMSTA
         stage.scene = scene
         stage.show()
     }
@@ -414,7 +415,7 @@ class FromStaInquiryController {
         val scene = Scene(vbox)
         stage.width = 400.0
         stage.height = 650.0
-        stage.title = ""
+        stage.title = WebViewTitleConst.WEBVIEW_TITLE_ENJURW18_FROMSTA
         stage.scene = scene
         stage.show()
     }
@@ -433,7 +434,7 @@ class FromStaInquiryController {
         val scene = Scene(vbox)
         stage.width = 400.0
         stage.height = 650.0
-        stage.title = ""
+        stage.title = WebViewTitleConst.WEBVIEW_TITLE_ENJURW19_FROMSTA
         stage.scene = scene
         stage.show()
     }

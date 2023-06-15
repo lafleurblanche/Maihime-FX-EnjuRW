@@ -28,6 +28,7 @@ import net.konohana.sakuya.maihime.enjurw.constant.psgrkbn.PassengerKbnConst.Com
 import net.konohana.sakuya.maihime.enjurw.constant.psgrkbn.PassengerKbnConst.Companion.PSGR_KBN_PP002
 import net.konohana.sakuya.maihime.enjurw.service.CerintheApiService
 import net.konohana.sakuya.maihime.enjurw.service.InquiryApiService
+import net.konohana.sakuya.maihime.enjurw.service.dto.InquiryApiDto
 import net.konohana.sakuya.maihime.enjurw.utils.checkInputValue
 import net.konohana.sakuya.maihime.enjurw.utils.code.getFromStaCodeBtn01
 import net.konohana.sakuya.maihime.enjurw.utils.code.getFromStaCodeBtn02
@@ -58,6 +59,8 @@ import net.konohana.sakuya.maihime.enjurw.utils.date.getDayAfterTomorrowDate
 import net.konohana.sakuya.maihime.enjurw.utils.date.getDayMonthLaterDate
 import net.konohana.sakuya.maihime.enjurw.utils.date.getTodayDate
 import net.konohana.sakuya.maihime.enjurw.utils.date.getTomorrowDate
+import net.konohana.sakuya.maihime.enjurw.utils.showAlertDialog
+import net.konohana.sakuya.maihime.enjurw.utils.url.fromStaInquiryApiUrlJudge
 
 /**
  * ## FXMLコントローラー
@@ -381,8 +384,13 @@ class Ticket01Controller : Initializable {
     @FXML
     private fun onSendTest2Click() {
         val inquiryApiService = InquiryApiService()
-        val apiResponse = inquiryApiService.getFromStaName(fromStaCodeTextField.text)
-        fromStaTextField.text = apiResponse?.fromStaName
+        val url = fromStaInquiryApiUrlJudge(fromStaCodeTextField.text)
+        if (url == "未入力") {
+            showAlertDialog("乗車駅コードが未入力です。")
+        } else {
+            val apiResponse = inquiryApiService.getFromStaName(url)
+            fromStaTextField.text = apiResponse?.fromStaName
+        }
     }
 
     /** 駅名カナボタン押下時処理 */

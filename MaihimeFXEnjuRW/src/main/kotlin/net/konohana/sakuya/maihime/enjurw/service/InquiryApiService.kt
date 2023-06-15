@@ -9,9 +9,9 @@ import org.springframework.web.reactive.function.client.WebClient
 class InquiryApiService {
     private val webClient = WebClient.create()
 
-    fun getFromStaName(fromStaCode: String): InquiryApiDto? {
+    fun getFromStaName(url: String): InquiryApiDto? {
         return webClient.get()
-            .uri("http://localhost:8080/api/fromsta/enjurw01/{stacode}", fromStaCode)
+            .uri(url)
             .retrieve()
             .bodyToMono(InquiryApiDto::class.java)
             .block()

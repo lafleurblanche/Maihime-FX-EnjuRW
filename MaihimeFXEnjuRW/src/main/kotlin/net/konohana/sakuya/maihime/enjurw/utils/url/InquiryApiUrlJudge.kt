@@ -23,6 +23,12 @@ fun fromStaInquiryApiUrlJudge(fromStaCode: String): String {
         "FRRW11" to InquiryApiUrlConst.INQUIRY_API_ENJURW11_FROMSTA,
         "FRRW12" to InquiryApiUrlConst.INQUIRY_API_ENJURW12_FROMSTA,
         "FRRW13" to InquiryApiUrlConst.INQUIRY_API_ENJURW13_FROMSTA,
+        "FRRW14" to InquiryApiUrlConst.INQUIRY_API_ENJURW14_FROMSTA,
+        "FRRW15" to InquiryApiUrlConst.INQUIRY_API_ENJURW15_FROMSTA,
+        "FRRW16" to InquiryApiUrlConst.INQUIRY_API_ENJURW16_FROMSTA,
+        "FRRW17" to InquiryApiUrlConst.INQUIRY_API_ENJURW17_FROMSTA,
+        "FRRW18" to InquiryApiUrlConst.INQUIRY_API_ENJURW18_FROMSTA,
+        "FRRW19" to InquiryApiUrlConst.INQUIRY_API_ENJURW19_FROMSTA,
     )
     val baseUrl = apiUrlMap.getOrDefault(fromStaRoute, InquiryApiUrlConst.INQUIRY_API_NOTFOUND_FROMSTA)
     return baseUrl + fromStaCode

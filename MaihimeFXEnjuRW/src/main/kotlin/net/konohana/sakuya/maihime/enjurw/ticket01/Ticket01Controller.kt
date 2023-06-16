@@ -81,8 +81,21 @@ class Ticket01Controller : Initializable {
     @FXML
     private lateinit var btnInquiry: Button
 
+    /** 発信ボタン */
+    @FXML
+    private lateinit var btnRequest: Button
+
     @FXML
     private fun onBtnInquiryClick() {
+    }
+
+    /**
+     * 発信ボタン押下時処理
+     */
+    @FXML
+    private fun onBtnRequestClick() {
+        val cerintheApiService = CerintheApiService()
+        specialNoteTextField.text = cerintheApiService.postTicketRequest(fromStaCode)
     }
 
     @FXML

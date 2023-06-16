@@ -60,6 +60,7 @@ import net.konohana.sakuya.maihime.enjurw.utils.date.getTodayDate
 import net.konohana.sakuya.maihime.enjurw.utils.date.getTomorrowDate
 import net.konohana.sakuya.maihime.enjurw.utils.showAlertDialog
 import net.konohana.sakuya.maihime.enjurw.utils.url.fromStaInquiryApiUrlJudge
+import net.konohana.sakuya.maihime.enjurw.utils.url.toStaInquiryApiUrlJudge
 
 /**
  * ## FXMLコントローラー
@@ -81,8 +82,21 @@ class Ticket01Controller : Initializable {
     @FXML
     private lateinit var btnInquiry: Button
 
+    /** 発信ボタン */
+    @FXML
+    private lateinit var btnRequest: Button
+
     @FXML
     private fun onBtnInquiryClick() {
+    }
+
+    /**
+     * 発信ボタン押下時処理
+     */
+    @FXML
+    private fun onBtnRequestClick() {
+        val cerintheApiService = CerintheApiService()
+        specialNoteTextField.text = cerintheApiService.postTicketRequest(fromStaCode)
     }
 
     @FXML
@@ -375,13 +389,6 @@ class Ticket01Controller : Initializable {
     /** 通信試験ボタン押下時修正 */
     @FXML
     private fun onSendTestClick() {
-        val cerintheApiService = CerintheApiService()
-        specialNoteTextField.text = cerintheApiService.postTicketRequest(fromStaCode)
-    }
-
-    /** 通信試験2ボタン押下時修正 */
-    @FXML
-    private fun onSendTest2Click() {
         val inquiryApiService = InquiryApiService()
         val url = fromStaInquiryApiUrlJudge(fromStaCodeTextField.text)
         if (url == "未入力") {
@@ -389,6 +396,19 @@ class Ticket01Controller : Initializable {
         } else {
             val apiResponse = inquiryApiService.getFromStaName(url)
             fromStaTextField.text = apiResponse?.fromStaName
+        }
+    }
+
+    /** 通信試験2ボタン押下時修正 */
+    @FXML
+    private fun onSendTest2Click() {
+        val inquiryApiService = InquiryApiService()
+        val url = toStaInquiryApiUrlJudge(toStaCodeTextField.text)
+        if (url == "未入力") {
+            showAlertDialog("降車駅コードが未入力です。")
+        } else {
+            val apiResponse = inquiryApiService.getToStaName(url)
+            toStaTextField.text = apiResponse?.toStaName
         }
     }
 

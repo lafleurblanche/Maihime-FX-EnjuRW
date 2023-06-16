@@ -559,7 +559,7 @@
           <RowConstraints maxHeight="36.0" minHeight="4.0" prefHeight="24.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <Button mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" text="発信" GridPane.columnIndex="4" />
+            <Button fx:id="btnRequest" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" text="発信" GridPane.columnIndex="4" />
             <Button mnemonicParsing="false" prefHeight="53.0" prefWidth="60.0" text="予約" GridPane.columnIndex="3" />
             <Button mnemonicParsing="false" onAction="#onBtnInquiryClick" prefHeight="54.0" prefWidth="59.0" text="照会" GridPane.columnIndex="2" />
             <Button fx:id="btnLCM" mnemonicParsing="false" onAction="#onBtnLCMClick" prefHeight="54.0" prefWidth="59.0" text="LCM" GridPane.columnIndex="1" />

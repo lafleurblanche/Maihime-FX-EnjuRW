@@ -386,7 +386,7 @@ class Ticket01Controller : Initializable {
         stage.show()
     }
 
-    /** 通信試験ボタン押下時修正 */
+    /** 乗車駅設定ボタン押下時修正 */
     @FXML
     private fun onSendTestClick() {
         val inquiryApiService = InquiryApiService()
@@ -399,7 +399,7 @@ class Ticket01Controller : Initializable {
         }
     }
 
-    /** 通信試験2ボタン押下時修正 */
+    /** 降車駅設定ボタン押下時修正 */
     @FXML
     private fun onSendTest2Click() {
         val inquiryApiService = InquiryApiService()

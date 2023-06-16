@@ -153,8 +153,8 @@
                               <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="113.0" GridPane.columnIndex="3" GridPane.rowIndex="6" />
                               <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="117.0" GridPane.columnIndex="4" GridPane.rowIndex="6" />
                               <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="112.0" textAlignment="CENTER" GridPane.columnIndex="5" GridPane.rowIndex="6" />
-                              <Button mnemonicParsing="false" onAction="#onSendTestClick" prefHeight="76.0" prefWidth="125.0" text="通信試験" GridPane.rowIndex="7" />
-                              <Button mnemonicParsing="false" onAction="#onSendTest2Click" prefHeight="76.0" prefWidth="117.0" text="通信試験2" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+                              <Button mnemonicParsing="false" onAction="#onSendTestClick" prefHeight="76.0" prefWidth="125.0" text="乗車駅&#10;設定" textAlignment="CENTER" GridPane.rowIndex="7" />
+                              <Button mnemonicParsing="false" onAction="#onSendTest2Click" prefHeight="76.0" prefWidth="117.0" text="降車駅&#10;設定" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="7" />
                               <Button mnemonicParsing="false" prefHeight="76.0" prefWidth="120.0" text="駅名カナ&#10;コード" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="7" />
                               <Button mnemonicParsing="false" prefHeight="76.0" prefWidth="117.0" text="事務管&#10;コード" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="7" />
                               <Button mnemonicParsing="false" prefHeight="76.0" prefWidth="113.0" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="7" />

@@ -28,7 +28,6 @@ import net.konohana.sakuya.maihime.enjurw.constant.psgrkbn.PassengerKbnConst.Com
 import net.konohana.sakuya.maihime.enjurw.constant.psgrkbn.PassengerKbnConst.Companion.PSGR_KBN_PP002
 import net.konohana.sakuya.maihime.enjurw.service.CerintheApiService
 import net.konohana.sakuya.maihime.enjurw.service.InquiryApiService
-import net.konohana.sakuya.maihime.enjurw.service.dto.InquiryApiDto
 import net.konohana.sakuya.maihime.enjurw.utils.checkInputValue
 import net.konohana.sakuya.maihime.enjurw.utils.code.getFromStaCodeBtn01
 import net.konohana.sakuya.maihime.enjurw.utils.code.getFromStaCodeBtn02

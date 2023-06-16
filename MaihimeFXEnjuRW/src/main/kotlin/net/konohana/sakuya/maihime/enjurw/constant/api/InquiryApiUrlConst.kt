@@ -22,5 +22,10 @@ class InquiryApiUrlConst {
         const val INQUIRY_API_ENJURW18_FROMSTA = "http://localhost:8080/api/fromsta/enjurw18/"
         const val INQUIRY_API_ENJURW19_FROMSTA = "http://localhost:8080/api/fromsta/enjurw19/"
         const val INQUIRY_API_NOTFOUND_FROMSTA = "http://localhost:8080/api/fromsta/notfound/"
+        const val INQUIRY_API_ENJURW01_TOSTA = "http://localhost:8080/api/tosta/enjurw01/"
+        const val INQUIRY_API_ENJURW02_TOSTA = "http://localhost:8080/api/tosta/enjurw02/"
+        const val INQUIRY_API_ENJURW03_TOSTA = "http://localhost:8080/api/tosta/enjurw03/"
+        const val INQUIRY_API_ENJURW04_TOSTA = "http://localhost:8080/api/tosta/enjurw04/"
+        const val INQUIRY_API_NOTFOUND_TOSTA = "http://localhost:8080/api/tosta/notfound/"
     }
 }

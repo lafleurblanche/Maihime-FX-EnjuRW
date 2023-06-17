@@ -21,6 +21,13 @@ fun toStaInquiryApiUrlJudge(toStaCode: String): String {
         "TORW10" to InquiryApiUrlConst.INQUIRY_API_ENJURW10_TOSTA,
         "TORW11" to InquiryApiUrlConst.INQUIRY_API_ENJURW11_TOSTA,
         "TORW12" to InquiryApiUrlConst.INQUIRY_API_ENJURW12_TOSTA,
+        "TORW13" to InquiryApiUrlConst.INQUIRY_API_ENJURW13_TOSTA,
+        "TORW14" to InquiryApiUrlConst.INQUIRY_API_ENJURW14_TOSTA,
+        "TORW15" to InquiryApiUrlConst.INQUIRY_API_ENJURW15_TOSTA,
+        "TORW16" to InquiryApiUrlConst.INQUIRY_API_ENJURW16_TOSTA,
+        "TORW17" to InquiryApiUrlConst.INQUIRY_API_ENJURW17_TOSTA,
+        "TORW18" to InquiryApiUrlConst.INQUIRY_API_ENJURW18_TOSTA,
+        "TORW19" to InquiryApiUrlConst.INQUIRY_API_ENJURW19_TOSTA,
     )
     val baseUrl = apiUrlMap.getOrDefault(toStaRoute, InquiryApiUrlConst.INQUIRY_API_NOTFOUND_TOSTA)
     return baseUrl + toStaCode

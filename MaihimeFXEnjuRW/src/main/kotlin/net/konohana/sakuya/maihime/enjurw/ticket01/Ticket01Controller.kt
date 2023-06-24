@@ -96,7 +96,24 @@ class Ticket01Controller : Initializable {
     @FXML
     private fun onBtnRequestClick() {
         val cerintheApiService = CerintheApiService()
-        specialNoteTextField.text = cerintheApiService.postTicketRequest(fromStaCode)
+        //specialNoteTextField.text = cerintheApiService.postTicketRequest(fromStaCode)
+        val res = cerintheApiService.postTicketRequestSample(
+            fromSta = fromStaTextField.text,
+            toSta = toStaTextField.text,
+            viaRouteConfig = viaTextField.text,
+            adultMember = adultTextField.text,
+            halfMember = halfTextField.text,
+            childMember = childTextField.text,
+            monthOfUse = monthField.text,
+            dayOfUse = dayTextField.text,
+            ticketType = ticketTypeTextField.text,
+            fromStaCode = fromStaCodeTextField.text,
+            toStaCode = toStaCodeTextField.text,
+            specialNote = specialNoteTextField.text,
+        )
+        if (res != null) {
+            showAlertDialog(res.reqNo)
+        }
     }
 
     @FXML

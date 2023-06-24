@@ -7,6 +7,7 @@ import javafx.scene.control.Alert
  */
 fun showAlertDialog(contextText: String) {
     val alert = Alert(Alert.AlertType.ERROR)
+    alert.headerText = "入力内容に誤りがあります。"
     alert.contentText = contextText
     alert.showAndWait()
 }

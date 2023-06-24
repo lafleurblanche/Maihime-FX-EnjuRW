@@ -59,6 +59,7 @@ import net.konohana.sakuya.maihime.enjurw.utils.date.getDayMonthLaterDate
 import net.konohana.sakuya.maihime.enjurw.utils.date.getTodayDate
 import net.konohana.sakuya.maihime.enjurw.utils.date.getTomorrowDate
 import net.konohana.sakuya.maihime.enjurw.utils.showAlertDialog
+import net.konohana.sakuya.maihime.enjurw.utils.showInfoDialog
 import net.konohana.sakuya.maihime.enjurw.utils.url.fromStaInquiryApiUrlJudge
 import net.konohana.sakuya.maihime.enjurw.utils.url.toStaInquiryApiUrlJudge
 
@@ -112,7 +113,11 @@ class Ticket01Controller : Initializable {
             specialNote = specialNoteTextField.text,
         )
         if (res != null) {
-            showAlertDialog(res.reqNo)
+            if (res.status == "OK") {
+                showInfoDialog(res.reqNo)
+            } else {
+                showAlertDialog(res.result)
+            }
         }
     }
 

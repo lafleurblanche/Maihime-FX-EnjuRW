@@ -154,3 +154,48 @@ fun getToStaCodeBtn16(): Pair<String, String> {
 fun getToStaCodeBtn17(): Pair<String, String> {
     return ToStaCodeConst.TOSTA_NAME_BTN17 to ToStaCodeConst.TOSTA_CODE_BTN17
 }
+
+/**
+ * ## 降車駅情報を取得します。
+ * * BTN18(笒谷)
+ * @return 降車駅情報
+ */
+fun getToStaCodeBtn18(): Pair<String, String> {
+    return ToStaCodeConst.TOSTA_NAME_BTN18 to ToStaCodeConst.TOSTA_CODE_BTN18
+}
+
+/**
+ * ## 降車駅情報を取得します。
+ * * BTN19(畭谷)
+ * @return 降車駅情報
+ */
+fun getToStaCodeBtn19(): Pair<String, String> {
+    return ToStaCodeConst.TOSTA_NAME_BTN19 to ToStaCodeConst.TOSTA_CODE_BTN19
+}
+
+/**
+ * ## 降車駅情報を取得します。
+ * * BTN20(上畭谷)
+ * @return 降車駅情報
+ */
+fun getToStaCodeBtn20(): Pair<String, String> {
+    return ToStaCodeConst.TOSTA_NAME_BTN20 to ToStaCodeConst.TOSTA_CODE_BTN20
+}
+
+/**
+ * ## 降車駅情報を取得します。
+ * * BTN21(箬谷)
+ * @return 降車駅情報
+ */
+fun getToStaCodeBtn21(): Pair<String, String> {
+    return ToStaCodeConst.TOSTA_NAME_BTN21 to ToStaCodeConst.TOSTA_CODE_BTN21
+}
+
+/**
+ * ## 降車駅情報を取得します。
+ * * BTN22(西箬谷)
+ * @return 降車駅情報
+ */
+fun getToStaCodeBtn22(): Pair<String, String> {
+    return ToStaCodeConst.TOSTA_NAME_BTN22 to ToStaCodeConst.TOSTA_CODE_BTN22
+}

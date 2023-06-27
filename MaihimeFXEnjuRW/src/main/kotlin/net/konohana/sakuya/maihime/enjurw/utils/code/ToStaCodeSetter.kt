@@ -199,3 +199,21 @@ fun getToStaCodeBtn21(): Pair<String, String> {
 fun getToStaCodeBtn22(): Pair<String, String> {
     return ToStaCodeConst.TOSTA_NAME_BTN22 to ToStaCodeConst.TOSTA_CODE_BTN22
 }
+
+/**
+ * ## 降車駅情報を取得します。
+ * * BTN23(苕谷)
+ * @return 降車駅情報
+ */
+fun getToStaCodeBtn23(): Pair<String, String> {
+    return ToStaCodeConst.TOSTA_NAME_BTN23 to ToStaCodeConst.TOSTA_CODE_BTN23
+}
+
+/**
+ * ## 降車駅情報を取得します。
+ * * BTN24(東苕谷)
+ * @return 降車駅情報
+ */
+fun getToStaCodeBtn24(): Pair<String, String> {
+    return ToStaCodeConst.TOSTA_NAME_BTN24 to ToStaCodeConst.TOSTA_CODE_BTN24
+}

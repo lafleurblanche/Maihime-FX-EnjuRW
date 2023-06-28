@@ -73,6 +73,10 @@ import net.konohana.sakuya.maihime.enjurw.utils.code.getToStaCodeBtn19
 import net.konohana.sakuya.maihime.enjurw.utils.code.getToStaCodeBtn20
 import net.konohana.sakuya.maihime.enjurw.utils.code.getToStaCodeBtn21
 import net.konohana.sakuya.maihime.enjurw.utils.code.getToStaCodeBtn22
+import net.konohana.sakuya.maihime.enjurw.utils.code.getToStaCodeBtn23
+import net.konohana.sakuya.maihime.enjurw.utils.code.getToStaCodeBtn24
+import net.konohana.sakuya.maihime.enjurw.utils.code.getToStaCodeBtn25
+import net.konohana.sakuya.maihime.enjurw.utils.code.getToStaCodeBtn26
 import net.konohana.sakuya.maihime.enjurw.utils.date.getDayAfterTomorrowDate
 import net.konohana.sakuya.maihime.enjurw.utils.date.getDayMonthLaterDate
 import net.konohana.sakuya.maihime.enjurw.utils.date.getTodayDate
@@ -916,6 +920,42 @@ class Ticket01Controller : Initializable {
     @FXML
     private fun onToStaBtn22Click() {
         val toStaCodeText = getToStaCodeBtn22()
+        toStaTextField.text = toStaCodeText.first
+        toStaCodeTextField.text = toStaCodeText.second
+        toStaCode = toStaCodeText.second
+    }
+
+    /** 苕谷(降車駅)ボタン押下時処理 */
+    @FXML
+    private fun onToStaBtn23Click() {
+        val toStaCodeText = getToStaCodeBtn23()
+        toStaTextField.text = toStaCodeText.first
+        toStaCodeTextField.text = toStaCodeText.second
+        toStaCode = toStaCodeText.second
+    }
+
+    /** 東苕谷(降車駅)ボタン押下時処理 */
+    @FXML
+    private fun onToStaBtn24Click() {
+        val toStaCodeText = getToStaCodeBtn24()
+        toStaTextField.text = toStaCodeText.first
+        toStaCodeTextField.text = toStaCodeText.second
+        toStaCode = toStaCodeText.second
+    }
+
+    /** 扆谷(降車駅)ボタン押下時処理 */
+    @FXML
+    private fun onToStaBtn25Click() {
+        val toStaCodeText = getToStaCodeBtn25()
+        toStaTextField.text = toStaCodeText.first
+        toStaCodeTextField.text = toStaCodeText.second
+        toStaCode = toStaCodeText.second
+    }
+
+    /** 奥扆谷(降車駅)ボタン押下時処理 */
+    @FXML
+    private fun onToStaBtn26Click() {
+        val toStaCodeText = getToStaCodeBtn26()
         toStaTextField.text = toStaCodeText.first
         toStaCodeTextField.text = toStaCodeText.second
         toStaCode = toStaCodeText.second

@@ -39,6 +39,25 @@ class ToStaCodeConst {
         const val TOSTA_NAME_BTN34 = "荍谷"
         const val TOSTA_NAME_BTN35 = "上荍谷"
 
+        // 降車駅名(降車駅候補2)
+        const val TOSTA_NAME_OP2_BTN01 = "梼谷"
+        const val TOSTA_NAME_OP2_BTN02 = "東梼谷"
+        const val TOSTA_NAME_OP2_BTN03 = "卯花"
+        const val TOSTA_NAME_OP2_BTN04 = "上卯花"
+        const val TOSTA_NAME_OP2_BTN05 = "槐谷"
+        const val TOSTA_NAME_OP2_BTN07= "槐谷"
+        const val TOSTA_NAME_OP2_BTN08 = "苆谷"
+        const val TOSTA_NAME_OP2_BTN09 = "拯川"
+        const val TOSTA_NAME_OP2_BTN10 = "上拯川"
+        const val TOSTA_NAME_OP2_BTN11 = "茄谷"
+        const val TOSTA_NAME_OP2_BTN12 = "笥谷"
+        const val TOSTA_NAME_OP2_BTN13 = "岩組"
+        const val TOSTA_NAME_OP2_BTN14 = "筏谷"
+        const val TOSTA_NAME_OP2_BTN15 = "宿田"
+        const val TOSTA_NAME_OP2_BTN16 = "瑞堂"
+        const val TOSTA_NAME_OP2_BTN17 = "筮谷"
+        const val TOSTA_NAME_OP2_BTN18 = "和瀬"
+
         // 降車駅コード
         const val TOSTA_CODE_BTN01 = "TORW0101"
         const val TOSTA_CODE_BTN02 = "TORW0102"
@@ -75,5 +94,24 @@ class ToStaCodeConst {
         const val TOSTA_CODE_BTN33 = "TORW1402"
         const val TOSTA_CODE_BTN34 = "TORW1501"
         const val TOSTA_CODE_BTN35 = "TORW1502"
+
+        // 降車駅コード(降車駅候補2)
+        const val TOSTA_CODE_OP2_BTN01 = "TORW1601"
+        const val TOSTA_CODE_OP2_BTN02 = "TORW1602"
+        const val TOSTA_CODE_OP2_BTN03 = "TORW1603"
+        const val TOSTA_CODE_OP2_BTN04 = "TORW1604"
+        const val TOSTA_CODE_OP2_BTN05 = "TORW1605"
+        const val TOSTA_CODE_OP2_BTN07 = "TORW1701"
+        const val TOSTA_CODE_OP2_BTN08 = "TORW1702"
+        const val TOSTA_CODE_OP2_BTN09 = "TORW1703"
+        const val TOSTA_CODE_OP2_BTN10 = "TORW1704"
+        const val TOSTA_CODE_OP2_BTN11 = "TORW1705"
+        const val TOSTA_CODE_OP2_BTN12 = "TORW1706"
+        const val TOSTA_CODE_OP2_BTN13 = "TORW1707"
+        const val TOSTA_CODE_OP2_BTN14 = "TORW1708"
+        const val TOSTA_CODE_OP2_BTN15 = "TORW1709"
+        const val TOSTA_CODE_OP2_BTN16 = "TORW1710"
+        const val TOSTA_CODE_OP2_BTN17 = "TORW1711"
+        const val TOSTA_CODE_OP2_BTN18 = "TORW1712"
     }
 }

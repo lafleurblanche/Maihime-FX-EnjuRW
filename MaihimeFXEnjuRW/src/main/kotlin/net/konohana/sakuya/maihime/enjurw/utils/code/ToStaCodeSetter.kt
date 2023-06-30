@@ -411,3 +411,91 @@ fun getToStaCodeOp2Btn09(): Pair<String, String> {
 fun getToStaCodeOp2Btn10(): Pair<String, String> {
     return ToStaCodeConst.TOSTA_NAME_OP2_BTN10 to ToStaCodeConst.TOSTA_CODE_OP2_BTN10
 }
+
+/**
+ * ## 降車駅情報を取得します。
+ * * 降車駅候補2
+ * * BTN11(茄谷)
+ * * 拯川線
+ * @return 降車駅情報
+ */
+fun getToStaCodeOp2Btn11(): Pair<String, String> {
+    return ToStaCodeConst.TOSTA_NAME_OP2_BTN11 to ToStaCodeConst.TOSTA_CODE_OP2_BTN11
+}
+
+/**
+ * ## 降車駅情報を取得します。
+ * * 降車駅候補2
+ * * BTN12(笥谷)
+ * * 拯川線
+ * @return 降車駅情報
+ */
+fun getToStaCodeOp2Btn12(): Pair<String, String> {
+    return ToStaCodeConst.TOSTA_NAME_OP2_BTN12 to ToStaCodeConst.TOSTA_CODE_OP2_BTN12
+}
+
+/**
+ * ## 降車駅情報を取得します。
+ * * 降車駅候補2
+ * * BTN13(岩組)
+ * * 拯川線
+ * @return 降車駅情報
+ */
+fun getToStaCodeOp2Btn13(): Pair<String, String> {
+    return ToStaCodeConst.TOSTA_NAME_OP2_BTN13 to ToStaCodeConst.TOSTA_CODE_OP2_BTN13
+}
+
+/**
+ * ## 降車駅情報を取得します。
+ * * 降車駅候補2
+ * * BTN14(筏谷)
+ * * 拯川線
+ * @return 降車駅情報
+ */
+fun getToStaCodeOp2Btn14(): Pair<String, String> {
+    return ToStaCodeConst.TOSTA_NAME_OP2_BTN14 to ToStaCodeConst.TOSTA_CODE_OP2_BTN14
+}
+
+/**
+ * ## 降車駅情報を取得します。
+ * * 降車駅候補2
+ * * BTN15(宿田)
+ * * 拯川線
+ * @return 降車駅情報
+ */
+fun getToStaCodeOp2Btn15(): Pair<String, String> {
+    return ToStaCodeConst.TOSTA_NAME_OP2_BTN15 to ToStaCodeConst.TOSTA_CODE_OP2_BTN15
+}
+
+/**
+ * ## 降車駅情報を取得します。
+ * * 降車駅候補2
+ * * BTN16(瑞堂)
+ * * 拯川線
+ * @return 降車駅情報
+ */
+fun getToStaCodeOp2Btn16(): Pair<String, String> {
+    return ToStaCodeConst.TOSTA_NAME_OP2_BTN16 to ToStaCodeConst.TOSTA_CODE_OP2_BTN16
+}
+
+/**
+ * ## 降車駅情報を取得します。
+ * * 降車駅候補2
+ * * BTN17(筮谷)
+ * * 拯川線
+ * @return 降車駅情報
+ */
+fun getToStaCodeOp2Btn17(): Pair<String, String> {
+    return ToStaCodeConst.TOSTA_NAME_OP2_BTN17 to ToStaCodeConst.TOSTA_CODE_OP2_BTN17
+}
+
+/**
+ * ## 降車駅情報を取得します。
+ * * 降車駅候補2
+ * * BTN17(和瀬)
+ * * 拯川線
+ * @return 降車駅情報
+ */
+fun getToStaCodeOp2Btn18(): Pair<String, String> {
+    return ToStaCodeConst.TOSTA_NAME_OP2_BTN18 to ToStaCodeConst.TOSTA_CODE_OP2_BTN18
+}

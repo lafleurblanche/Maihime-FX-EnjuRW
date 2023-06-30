@@ -420,8 +420,8 @@
                               <Button mnemonicParsing="false" onAction="#onToStaBtn31Click" prefHeight="77.0" prefWidth="115.0" text="上玿谷" GridPane.rowIndex="5" />
                               <Button mnemonicParsing="false" onAction="#onToStaBtn32Click" prefHeight="77.0" prefWidth="118.0" text="珮谷" GridPane.columnIndex="1" GridPane.rowIndex="5" />
                               <Button mnemonicParsing="false" onAction="#onToStaBtn33Click" prefHeight="77.0" prefWidth="124.0" text="上珮谷" GridPane.columnIndex="2" GridPane.rowIndex="5" />
-                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="122.0" text="荍谷" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="5" />
-                              <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="113.0" text="上荍谷" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+                              <Button mnemonicParsing="false" onAction="#onToStaBtn34Click" prefHeight="77.0" prefWidth="122.0" text="荍谷" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+                              <Button mnemonicParsing="false" onAction="#onToStaBtn35Click" prefHeight="77.0" prefWidth="113.0" text="上荍谷" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="5" />
                               <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="115.0" GridPane.columnIndex="5" GridPane.rowIndex="5" />
                               <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="117.0" GridPane.rowIndex="6" />
                               <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="111.0" GridPane.columnIndex="1" GridPane.rowIndex="6" />

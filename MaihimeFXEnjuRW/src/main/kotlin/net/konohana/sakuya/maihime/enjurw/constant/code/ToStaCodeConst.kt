@@ -29,6 +29,13 @@ class ToStaCodeConst {
         const val TOSTA_NAME_BTN24 = "東苕谷"
         const val TOSTA_NAME_BTN25 = "扆谷"
         const val TOSTA_NAME_BTN26 = "奥扆谷"
+        const val TOSTA_NAME_BTN27 = "珩谷"
+        const val TOSTA_NAME_BTN28 = "中珩谷"
+        const val TOSTA_NAME_BTN29 = "上珩谷"
+        const val TOSTA_NAME_BTN30 = "玿谷"
+        const val TOSTA_NAME_BTN31 = "上玿谷"
+        const val TOSTA_NAME_BTN32 = "珮谷"
+        const val TOSTA_NAME_BTN33 = "上珮谷"
 
         // 降車駅コード
         const val TOSTA_CODE_BTN01 = "TORW0101"
@@ -57,5 +64,12 @@ class ToStaCodeConst {
         const val TOSTA_CODE_BTN24 = "TORW1002"
         const val TOSTA_CODE_BTN25 = "TORW1101"
         const val TOSTA_CODE_BTN26 = "TORW1102"
+        const val TOSTA_CODE_BTN27 = "TORW1201"
+        const val TOSTA_CODE_BTN28 = "TORW1202"
+        const val TOSTA_CODE_BTN29 = "TORW1203"
+        const val TOSTA_CODE_BTN30 = "TORW1301"
+        const val TOSTA_CODE_BTN31 = "TORW1302"
+        const val TOSTA_CODE_BTN32 = "TORW1401"
+        const val TOSTA_CODE_BTN33 = "TORW1402"
     }
 }

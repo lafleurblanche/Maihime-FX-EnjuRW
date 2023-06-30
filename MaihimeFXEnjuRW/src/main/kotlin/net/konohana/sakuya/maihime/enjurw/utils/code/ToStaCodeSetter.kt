@@ -298,3 +298,21 @@ fun getToStaCodeBtn32(): Pair<String, String> {
 fun getToStaCodeBtn33(): Pair<String, String> {
     return ToStaCodeConst.TOSTA_NAME_BTN33 to ToStaCodeConst.TOSTA_CODE_BTN33
 }
+
+/**
+ * ## 降車駅情報を取得します。
+ * * BTN34(荍谷)
+ * @return 降車駅情報
+ */
+fun getToStaCodeBtn34(): Pair<String, String> {
+    return ToStaCodeConst.TOSTA_NAME_BTN34 to ToStaCodeConst.TOSTA_CODE_BTN34
+}
+
+/**
+ * ## 降車駅情報を取得します。
+ * * BTN35(上荍谷)
+ * @return 降車駅情報
+ */
+fun getToStaCodeBtn35(): Pair<String, String> {
+    return ToStaCodeConst.TOSTA_NAME_BTN35 to ToStaCodeConst.TOSTA_CODE_BTN35
+}

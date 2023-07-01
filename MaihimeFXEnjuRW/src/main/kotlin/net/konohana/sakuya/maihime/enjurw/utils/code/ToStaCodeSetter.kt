@@ -492,10 +492,109 @@ fun getToStaCodeOp2Btn17(): Pair<String, String> {
 /**
  * ## 降車駅情報を取得します。
  * * 降車駅候補2
- * * BTN17(和瀬)
+ * * BTN18(和瀬)
  * * 拯川線
  * @return 降車駅情報
  */
 fun getToStaCodeOp2Btn18(): Pair<String, String> {
     return ToStaCodeConst.TOSTA_NAME_OP2_BTN18 to ToStaCodeConst.TOSTA_CODE_OP2_BTN18
+}
+
+/**
+ * ## 降車駅情報を取得します。
+ * * 降車駅候補2
+ * * BTN19(上和瀬)
+ * * 拯川線
+ * @return 降車駅情報
+ */
+fun getToStaCodeOp2Btn19(): Pair<String, String> {
+    return ToStaCodeConst.TOSTA_NAME_OP2_BTN19 to ToStaCodeConst.TOSTA_CODE_OP2_BTN19
+}
+
+/**
+ * ## 降車駅情報を取得します。
+ * * 降車駅候補2
+ * * BTN20(卯塚)
+ * * 拯川線
+ * @return 降車駅情報
+ */
+fun getToStaCodeOp2Btn20(): Pair<String, String> {
+    return ToStaCodeConst.TOSTA_NAME_OP2_BTN20 to ToStaCodeConst.TOSTA_CODE_OP2_BTN20
+}
+
+/**
+ * ## 降車駅情報を取得します。
+ * * 降車駅候補2
+ * * BTN25(東卯塚)
+ * * 卯塚線
+ * @return 降車駅情報
+ */
+fun getToStaCodeOp2Btn25(): Pair<String, String> {
+    return ToStaCodeConst.TOSTA_NAME_OP2_BTN25 to ToStaCodeConst.TOSTA_CODE_OP2_BTN25
+}
+
+/**
+ * ## 降車駅情報を取得します。
+ * * 降車駅候補2
+ * * BTN26(筁谷)
+ * * 卯塚線
+ * @return 降車駅情報
+ */
+fun getToStaCodeOp2Btn26(): Pair<String, String> {
+    return ToStaCodeConst.TOSTA_NAME_OP2_BTN26 to ToStaCodeConst.TOSTA_CODE_OP2_BTN26
+}
+
+/**
+ * ## 降車駅情報を取得します。
+ * * 降車駅候補2
+ * * BTN27(筥谷)
+ * * 卯塚線
+ * @return 降車駅情報
+ */
+fun getToStaCodeOp2Btn27(): Pair<String, String> {
+    return ToStaCodeConst.TOSTA_NAME_OP2_BTN27 to ToStaCodeConst.TOSTA_CODE_OP2_BTN27
+}
+
+/**
+ * ## 降車駅情報を取得します。
+ * * 降車駅候補2
+ * * BTN28(粥坂)
+ * * 卯塚線
+ * @return 降車駅情報
+ */
+fun getToStaCodeOp2Btn28(): Pair<String, String> {
+    return ToStaCodeConst.TOSTA_NAME_OP2_BTN28 to ToStaCodeConst.TOSTA_CODE_OP2_BTN28
+}
+
+/**
+ * ## 降車駅情報を取得します。
+ * * 降車駅候補2
+ * * BTN29(笒谷)
+ * * 卯塚線
+ * @return 降車駅情報
+ */
+fun getToStaCodeOp2Btn29(): Pair<String, String> {
+    return ToStaCodeConst.TOSTA_NAME_OP2_BTN29 to ToStaCodeConst.TOSTA_CODE_OP2_BTN29
+}
+
+/**
+ * ## 降車駅情報を取得します。
+ * * 降車駅候補2
+ * * BTN30(箬谷)
+ * * 卯塚線
+ * @return 降車駅情報
+ */
+fun getToStaCodeOp2Btn30(): Pair<String, String> {
+    return ToStaCodeConst.TOSTA_NAME_OP2_BTN30 to ToStaCodeConst.TOSTA_CODE_OP2_BTN30
+}
+
+/**
+ * ## 降車駅情報を取得します。
+ * * 降車駅候補2
+ * * BTN31(梧谷)
+ * * 卯塚線
+ * @return 降車駅情報
+ */
+fun getToStaCodeOp2Btn31(): Pair<String, String> {
+    return ToStaCodeConst.TOSTA_NAME_OP2_BTN31 to ToStaCodeConst.TOSTA_CODE_OP2_BTN31
 }

@@ -57,6 +57,16 @@ class ToStaCodeConst {
         const val TOSTA_NAME_OP2_BTN16 = "瑞堂"
         const val TOSTA_NAME_OP2_BTN17 = "筮谷"
         const val TOSTA_NAME_OP2_BTN18 = "和瀬"
+        const val TOSTA_NAME_OP2_BTN19 = "上和瀬"
+        const val TOSTA_NAME_OP2_BTN20 = "卯塚"
+        const val TOSTA_NAME_OP2_BTN25 = "東卯塚"
+        const val TOSTA_NAME_OP2_BTN26 = "筁谷"
+        const val TOSTA_NAME_OP2_BTN27 = "筥谷"
+        const val TOSTA_NAME_OP2_BTN28 = "粥坂"
+        const val TOSTA_NAME_OP2_BTN29 = "笒谷"
+        const val TOSTA_NAME_OP2_BTN30 = "箬谷"
+        const val TOSTA_NAME_OP2_BTN31 = "梧谷"
+
 
         // 降車駅コード
         const val TOSTA_CODE_BTN01 = "TORW0101"
@@ -113,5 +123,14 @@ class ToStaCodeConst {
         const val TOSTA_CODE_OP2_BTN16 = "TORW1710"
         const val TOSTA_CODE_OP2_BTN17 = "TORW1711"
         const val TOSTA_CODE_OP2_BTN18 = "TORW1712"
+        const val TOSTA_CODE_OP2_BTN19 = "TORW1713"
+        const val TOSTA_CODE_OP2_BTN20 = "TORW1714"
+        const val TOSTA_CODE_OP2_BTN25 = "TORW1802"
+        const val TOSTA_CODE_OP2_BTN26 = "TORW1803"
+        const val TOSTA_CODE_OP2_BTN27 = "TORW1804"
+        const val TOSTA_CODE_OP2_BTN28 = "TORW1805"
+        const val TOSTA_CODE_OP2_BTN29 = "TORW1806"
+        const val TOSTA_CODE_OP2_BTN30 = "TORW1807"
+        const val TOSTA_CODE_OP2_BTN31 = "TORW1808"
     }
 }

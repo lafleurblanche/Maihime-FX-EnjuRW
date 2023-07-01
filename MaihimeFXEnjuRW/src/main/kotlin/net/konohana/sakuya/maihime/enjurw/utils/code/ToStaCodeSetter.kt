@@ -598,3 +598,80 @@ fun getToStaCodeOp2Btn30(): Pair<String, String> {
 fun getToStaCodeOp2Btn31(): Pair<String, String> {
     return ToStaCodeConst.TOSTA_NAME_OP2_BTN31 to ToStaCodeConst.TOSTA_CODE_OP2_BTN31
 }
+
+/**
+ * ## 降車駅情報を取得します。
+ * * 降車駅候補2
+ * * BTN37(東瑞堂)
+ * * 瑞堂線
+ * @return 降車駅情報
+ */
+fun getToStaCodeOp2Btn37(): Pair<String, String> {
+    return ToStaCodeConst.TOSTA_NAME_OP2_BTN37 to ToStaCodeConst.TOSTA_CODE_OP2_BTN37
+}
+
+/**
+ * ## 降車駅情報を取得します。
+ * * 降車駅候補2
+ * * BTN38(苕谷)
+ * * 瑞堂線
+ * @return 降車駅情報
+ */
+fun getToStaCodeOp2Btn38(): Pair<String, String> {
+    return ToStaCodeConst.TOSTA_NAME_OP2_BTN38 to ToStaCodeConst.TOSTA_CODE_OP2_BTN38
+}
+
+/**
+ * ## 降車駅情報を取得します。
+ * * 降車駅候補2
+ * * BTN39(扆谷)
+ * * 瑞堂線
+ * @return 降車駅情報
+ */
+fun getToStaCodeOp2Btn39(): Pair<String, String> {
+    return ToStaCodeConst.TOSTA_NAME_OP2_BTN39 to ToStaCodeConst.TOSTA_CODE_OP2_BTN39
+}
+
+/**
+ * ## 降車駅情報を取得します。
+ * * 降車駅候補2
+ * * BTN40(珩谷)
+ * * 瑞堂線
+ * @return 降車駅情報
+ */
+fun getToStaCodeOp2Btn40(): Pair<String, String> {
+    return ToStaCodeConst.TOSTA_NAME_OP2_BTN40 to ToStaCodeConst.TOSTA_CODE_OP2_BTN40
+}
+
+/**
+ * ## 降車駅情報を取得します。
+ * * 降車駅候補2
+ * * BTN41(玿谷)
+ * * 瑞堂線
+ * @return 降車駅情報
+ */
+fun getToStaCodeOp2Btn41(): Pair<String, String> {
+    return ToStaCodeConst.TOSTA_NAME_OP2_BTN41 to ToStaCodeConst.TOSTA_CODE_OP2_BTN41
+}
+
+/**
+ * ## 降車駅情報を取得します。
+ * * 降車駅候補2
+ * * BTN42(珮谷)
+ * * 瑞堂線
+ * @return 降車駅情報
+ */
+fun getToStaCodeOp2Btn42(): Pair<String, String> {
+    return ToStaCodeConst.TOSTA_NAME_OP2_BTN42 to ToStaCodeConst.TOSTA_CODE_OP2_BTN42
+}
+
+/**
+ * ## 降車駅情報を取得します。
+ * * 降車駅候補2
+ * * BTN43(荍谷)
+ * * 瑞堂線
+ * @return 降車駅情報
+ */
+fun getToStaCodeOp2Btn43(): Pair<String, String> {
+    return ToStaCodeConst.TOSTA_NAME_OP2_BTN43 to ToStaCodeConst.TOSTA_CODE_OP2_BTN43
+}

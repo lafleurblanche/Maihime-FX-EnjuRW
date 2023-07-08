@@ -34,6 +34,16 @@ class MainMenuController {
     }
 
     @FXML
+    private fun onBtn02Click() {
+        val stage = Stage()
+        val fxmlLoader = FXMLLoader(MaihimeFXEnjuRWApplication::class.java.getResource("ticket02/ticket-02.fxml"))
+        val scene = Scene(fxmlLoader.load(), 1200.0, 915.0)
+        stage.title = "舞姫-乗車券発券システムBeta-"
+        stage.scene = scene
+        stage.show()
+    }
+
+    @FXML
     private fun onBtnExitClick() {
         Platform.exit()
         exitProcess(0)

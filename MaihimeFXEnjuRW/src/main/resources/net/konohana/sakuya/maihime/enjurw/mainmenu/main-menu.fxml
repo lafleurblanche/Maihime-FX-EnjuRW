@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="900.0" prefWidth="1200.0" stylesheets="@main-menu.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="net.konohana.sakuya.maihime.enjurw.mainmenu.MainMenuController">
+<AnchorPane prefHeight="900.0" prefWidth="1200.0" stylesheets="@main-menu.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="net.konohana.sakuya.maihime.enjurw.mainmenu.MainMenuController">
    <children>
       <Label fx:id="menuLabel" layoutX="24.0" layoutY="22.0" prefHeight="46.0" prefWidth="535.0" text="乗車券メニュー">
          <font>
@@ -31,7 +31,7 @@
         </rowConstraints>
          <children>
             <Button fx:id="btn01" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onBtn01Click" prefHeight="332.0" prefWidth="394.0" text="01 乗車券-えんじゅ交通" />
-            <Button alignment="BASELINE_LEFT" mnemonicParsing="false" prefHeight="337.0" prefWidth="429.0" text="02 " GridPane.rowIndex="1" />
+            <Button alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onBtn02Click" prefHeight="337.0" prefWidth="429.0" text="02  乗車券-支線連絡系統" GridPane.rowIndex="1" />
             <Button alignment="BASELINE_LEFT" mnemonicParsing="false" prefHeight="200.0" prefWidth="487.0" text="03 " GridPane.rowIndex="2" />
             <Button alignment="BASELINE_LEFT" mnemonicParsing="false" prefHeight="194.0" prefWidth="508.0" text="04 " GridPane.rowIndex="3" />
             <Button alignment="BASELINE_LEFT" mnemonicParsing="false" prefHeight="188.0" prefWidth="671.0" text="05 " GridPane.rowIndex="4" />

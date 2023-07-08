@@ -131,7 +131,7 @@ import net.konohana.sakuya.maihime.enjurw.utils.url.toStaInquiryApiUrlJudge
 /**
  * ## FXMLコントローラー
  * * 乗車券要求画面
- * * 霞台総合管轄
+ * * えんじゅ交通
  * @author lafleurblanche
  */
 class Ticket01Controller : Initializable {

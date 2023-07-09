@@ -30,6 +30,11 @@ import net.konohana.sakuya.maihime.enjurw.utils.code.getToStaCodeBtn08
 import net.konohana.sakuya.maihime.enjurw.utils.code.ticket02.getFromStaCodeTicket02Btn01
 import net.konohana.sakuya.maihime.enjurw.utils.code.ticket02.getFromStaCodeTicket02Btn02
 import net.konohana.sakuya.maihime.enjurw.utils.code.ticket02.getFromStaCodeTicket02Btn03
+import net.konohana.sakuya.maihime.enjurw.utils.code.ticket02.getFromStaCodeTicket02Btn04
+import net.konohana.sakuya.maihime.enjurw.utils.code.ticket02.getFromStaCodeTicket02Btn05
+import net.konohana.sakuya.maihime.enjurw.utils.code.ticket02.getFromStaCodeTicket02Btn06
+import net.konohana.sakuya.maihime.enjurw.utils.code.ticket02.getFromStaCodeTicket02Btn07
+import net.konohana.sakuya.maihime.enjurw.utils.code.ticket02.getFromStaCodeTicket02Btn08
 import net.konohana.sakuya.maihime.enjurw.utils.date.getDayAfterTomorrowDate
 import net.konohana.sakuya.maihime.enjurw.utils.date.getDayMonthLaterDate
 import net.konohana.sakuya.maihime.enjurw.utils.date.getTodayDate
@@ -500,7 +505,7 @@ class Ticket02Controller : Initializable {
         fromStaCode = fromStaCodeText.second
     }
 
-    /** 卯花(乗車駅)ボタン押下時処理 */
+    /** 書石(乗車駅)ボタン押下時処理 */
     @FXML
     private fun onFromStaBtn03Click() {
         val fromStaCodeText = getFromStaCodeTicket02Btn03()
@@ -509,33 +514,53 @@ class Ticket02Controller : Initializable {
         fromStaCode = fromStaCodeText.second
     }
 
-    /** 上卯花(乗車駅)ボタン押下時処理 */
+    /** 宴谷(乗車駅)ボタン押下時処理 */
     @FXML
     private fun onFromStaBtn04Click() {
+        val fromStaCodeText = getFromStaCodeTicket02Btn04()
+        fromStaTextField.text = fromStaCodeText.first
+        fromStaCodeTextField.text = fromStaCodeText.second
+        fromStaCode = fromStaCodeText.second
 
     }
 
-    /** 槐谷(乗車駅)ボタン押下時処理 */
+    /** 上宴谷(乗車駅)ボタン押下時処理 */
     @FXML
     private fun onFromStaBtn05Click() {
+        val fromStaCodeText = getFromStaCodeTicket02Btn05()
+        fromStaTextField.text = fromStaCodeText.first
+        fromStaCodeTextField.text = fromStaCodeText.second
+        fromStaCode = fromStaCodeText.second
 
     }
 
-    /** 苆谷(乗車駅)ボタン押下時処理 */
+    /** 梼谷(乗車駅)ボタン押下時処理 */
     @FXML
     private fun onFromStaBtn06Click() {
+        val fromStaCodeText = getFromStaCodeTicket02Btn06()
+        fromStaTextField.text = fromStaCodeText.first
+        fromStaCodeTextField.text = fromStaCodeText.second
+        fromStaCode = fromStaCodeText.second
 
     }
 
-    /** 拯川(乗車駅)ボタン押下時処理 */
+    /** 柊坂(乗車駅)ボタン押下時処理 */
     @FXML
     private fun onFromStaBtn07Click() {
+        val fromStaCodeText = getFromStaCodeTicket02Btn07()
+        fromStaTextField.text = fromStaCodeText.first
+        fromStaCodeTextField.text = fromStaCodeText.second
+        fromStaCode = fromStaCodeText.second
 
     }
 
-    /** 上拯川(乗車駅)ボタン押下時処理 */
+    /** 狒塚(乗車駅)ボタン押下時処理 */
     @FXML
     private fun onFromStaBtn08Click() {
+        val fromStaCodeText = getFromStaCodeTicket02Btn08()
+        fromStaTextField.text = fromStaCodeText.first
+        fromStaCodeTextField.text = fromStaCodeText.second
+        fromStaCode = fromStaCodeText.second
 
     }
 

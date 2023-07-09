@@ -27,6 +27,16 @@ class FromStaCodeConst  {
         const val FROMSTA_NAME_BTN21 = "箬谷"
         const val FROMSTA_NAME_BTN22 = "梧谷"
 
+        // Ticket02乗車駅名
+        const val FROMSTA_NAME_TICKET02_BTN01 = "茆川"
+        const val FROMSTA_NAME_TICKET02_BTN02 = "上茆川"
+        const val FROMSTA_NAME_TICKET02_BTN03 = "書石"
+        const val FROMSTA_NAME_TICKET02_BTN04 = "宴谷"
+        const val FROMSTA_NAME_TICKET02_BTN05 = "上宴谷"
+        const val FROMSTA_NAME_TICKET02_BTN06 = "梼谷"
+        const val FROMSTA_NAME_TICKET02_BTN07 = "柊坂"
+        const val FROMSTA_NAME_TICKET02_BTN08 = "狒塚"
+
 
         // 乗車駅コード
         const val FROMSTA_CODE_BTN01 = "FRRW1601"
@@ -51,6 +61,16 @@ class FromStaCodeConst  {
         const val FROMSTA_CODE_BTN20 = "FRRW1806"
         const val FROMSTA_CODE_BTN21 = "FRRW1807"
         const val FROMSTA_CODE_BTN22 = "FRRW1808"
+
+        // Ticket02乗車駅コード
+        const val FROMSTA_CODE_TICKET02_BTN01 = "FRGW0101"
+        const val FROMSTA_CODE_TICKET02_BTN02 = "FRGW0102"
+        const val FROMSTA_CODE_TICKET02_BTN03 = "FRGW0103"
+        const val FROMSTA_CODE_TICKET02_BTN04 = "FRGW0104"
+        const val FROMSTA_CODE_TICKET02_BTN05 = "FRGW0105"
+        const val FROMSTA_CODE_TICKET02_BTN06 = "FRGW0106"
+        const val FROMSTA_CODE_TICKET02_BTN07 = "FRGW0107"
+        const val FROMSTA_CODE_TICKET02_BTN08 = "FRGW0108"
 
     }
 }

@@ -15,6 +15,7 @@ class RequestDataConst {
         const val REQUEST_DEFAULT_TICKET_TYPE = "券種別"
         const val REQUEST_DEFAULT_FROM_STA_CODE = "乗車駅コード"
         const val REQUEST_DEFAULT_TO_STA_CODE = "降車駅コード"
-        const val REQUEST_DEFAULT_SECTOR_KBN = "ENJU"
+        const val REQUEST_SECTOR_KBN_ENJU = "ENJU"
+        const val REQUEST_SECTOR_KBN_ARGW = "ARGW"
     }
 }

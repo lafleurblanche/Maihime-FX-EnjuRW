@@ -33,6 +33,7 @@ class CerintheApiService {
         fromStaCode: String,
         toStaCode: String,
         specialNote: String,
+        sectorKbn: String,
     ): CerintheAPIResponse? {
         val request = CerintheFXRequestData(
             fromSta = fromSta.ifEmpty { RequestDataConst.REQUEST_DEFAULT_FROM_STA },
@@ -49,7 +50,7 @@ class CerintheApiService {
             discountCode = "",
             postPayCode = "",
             specialNote = specialNote,
-            sectorKbn = RequestDataConst.REQUEST_DEFAULT_SECTOR_KBN
+            sectorKbn = sectorKbn
         )
         return webClient.post()
             .uri("http://localhost:8085/cerinthe/fx/api/regist-ticket")
@@ -72,6 +73,7 @@ class CerintheApiService {
         fromStaCode: String,
         toStaCode: String,
         specialNote: String,
+        sectorKbn: String
     ) {
         val request = CerintheFXRequestData(
             fromSta = fromSta.ifEmpty { RequestDataConst.REQUEST_DEFAULT_FROM_STA },
@@ -88,7 +90,7 @@ class CerintheApiService {
             discountCode = "",
             postPayCode = "",
             specialNote = specialNote,
-            sectorKbn = RequestDataConst.REQUEST_DEFAULT_SECTOR_KBN
+            sectorKbn = sectorKbn
         )
         println(request)
     }

@@ -15,6 +15,7 @@ import javafx.scene.control.TextField
 import javafx.scene.control.TextInputDialog
 import javafx.stage.Stage
 import net.konohana.sakuya.maihime.enjurw.MaihimeFXEnjuRWApplication
+import net.konohana.sakuya.maihime.enjurw.constant.api.RequestDataConst
 import net.konohana.sakuya.maihime.enjurw.constant.code.TicketTypeCodeConst
 import net.konohana.sakuya.maihime.enjurw.constant.psgrkbn.PassengerKbnConst
 import net.konohana.sakuya.maihime.enjurw.service.CerintheApiService
@@ -93,6 +94,7 @@ class Ticket02Controller : Initializable {
             fromStaCode = fromStaCodeTextField.text,
             toStaCode = toStaCodeTextField.text,
             specialNote = specialNoteTextField.text,
+            sectorKbn = RequestDataConst.REQUEST_SECTOR_KBN_ARGW
         )
         if (res != null) {
             if (res.status == "OK") {

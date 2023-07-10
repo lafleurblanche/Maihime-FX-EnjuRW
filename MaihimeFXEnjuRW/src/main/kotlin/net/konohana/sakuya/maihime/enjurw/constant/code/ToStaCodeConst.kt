@@ -39,6 +39,16 @@ class ToStaCodeConst {
         const val TOSTA_NAME_BTN34 = "荍谷"
         const val TOSTA_NAME_BTN35 = "上荍谷"
 
+        // Ticket02乗車駅名
+        const val TOSTA_NAME_TICKET02_BTN01 = "茆川"
+        const val TOSTA_NAME_TICKET02_BTN02 = "上茆川"
+        const val TOSTA_NAME_TICKET02_BTN03 = "書石"
+        const val TOSTA_NAME_TICKET02_BTN04 = "宴谷"
+        const val TOSTA_NAME_TICKET02_BTN05 = "上宴谷"
+        const val TOSTA_NAME_TICKET02_BTN06 = "梼谷"
+        const val TOSTA_NAME_TICKET02_BTN07 = "柊坂"
+        const val TOSTA_NAME_TICKET02_BTN08 = "狒塚"
+
         // 降車駅名(降車駅候補2)
         const val TOSTA_NAME_OP2_BTN01 = "梼谷"
         const val TOSTA_NAME_OP2_BTN02 = "東梼谷"
@@ -145,5 +155,15 @@ class ToStaCodeConst {
         const val TOSTA_CODE_OP2_BTN41 = "TORW1906"
         const val TOSTA_CODE_OP2_BTN42 = "TORW1907"
         const val TOSTA_CODE_OP2_BTN43 = "TORW1908"
+
+        // Ticket02乗車駅コード
+        const val TOSTA_CODE_TICKET02_BTN01 = "TOGW0101"
+        const val TOSTA_CODE_TICKET02_BTN02 = "TOGW0102"
+        const val TOSTA_CODE_TICKET02_BTN03 = "TOGW0103"
+        const val TOSTA_CODE_TICKET02_BTN04 = "TOGW0104"
+        const val TOSTA_CODE_TICKET02_BTN05 = "TOGW0105"
+        const val TOSTA_CODE_TICKET02_BTN06 = "TOGW0106"
+        const val TOSTA_CODE_TICKET02_BTN07 = "TOGW0107"
+        const val TOSTA_CODE_TICKET02_BTN08 = "TOGW0108"
     }
 }

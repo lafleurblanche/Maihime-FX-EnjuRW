@@ -20,9 +20,17 @@ class MainMenuController {
     @FXML
     private lateinit var menuLabel: Label
 
+    /** BTN01(乗車券-えんじゅ交通)ボタン */
     @FXML
     private lateinit var  btn01: Button
 
+    /** BTN02(乗車券-支線連絡系統)ボタン */
+    @FXML
+    private lateinit var  btn02: Button
+
+    /**
+     * BTN01(乗車券-えんじゅ交通)ボタン押下時処理
+     */
     @FXML
     private fun onBtn01Click() {
         val stage = Stage()
@@ -33,6 +41,9 @@ class MainMenuController {
         stage.show()
     }
 
+    /**
+     * BTN02(乗車券-支線連絡系統)ボタン押下時処理
+     */
     @FXML
     private fun onBtn02Click() {
         val stage = Stage()

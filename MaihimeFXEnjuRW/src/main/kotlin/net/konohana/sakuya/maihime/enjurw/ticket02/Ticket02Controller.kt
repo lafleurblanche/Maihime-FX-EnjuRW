@@ -43,8 +43,8 @@ import net.konohana.sakuya.maihime.enjurw.utils.date.getTodayDate
 import net.konohana.sakuya.maihime.enjurw.utils.date.getTomorrowDate
 import net.konohana.sakuya.maihime.enjurw.utils.showAlertDialog
 import net.konohana.sakuya.maihime.enjurw.utils.showInfoDialog
-import net.konohana.sakuya.maihime.enjurw.utils.url.fromStaInquiryApiUrlJudge
-import net.konohana.sakuya.maihime.enjurw.utils.url.toStaInquiryApiUrlJudge
+import net.konohana.sakuya.maihime.enjurw.utils.url.argwFromStaInquiryApiUrlJudge
+import net.konohana.sakuya.maihime.enjurw.utils.url.argwToStaInquiryApiUrlJudge
 
 /**
  * ## FXMLコントローラー
@@ -396,7 +396,7 @@ class Ticket02Controller : Initializable {
     @FXML
     private fun onSendTestClick() {
         val inquiryApiService = InquiryApiService()
-        val url = fromStaInquiryApiUrlJudge(fromStaCodeTextField.text)
+        val url = argwFromStaInquiryApiUrlJudge(fromStaCodeTextField.text)
         if (url == "未入力") {
             showAlertDialog("乗車駅コードが未入力です。")
         } else {
@@ -409,7 +409,7 @@ class Ticket02Controller : Initializable {
     @FXML
     private fun onSendTest2Click() {
         val inquiryApiService = InquiryApiService()
-        val url = toStaInquiryApiUrlJudge(toStaCodeTextField.text)
+        val url = argwToStaInquiryApiUrlJudge(toStaCodeTextField.text)
         if (url == "未入力") {
             showAlertDialog("降車駅コードが未入力です。")
         } else {

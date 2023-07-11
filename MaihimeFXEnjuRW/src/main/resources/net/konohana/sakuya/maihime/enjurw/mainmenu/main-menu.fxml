@@ -32,9 +32,9 @@
          <children>
             <Button fx:id="btn01" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onBtn01Click" prefHeight="332.0" prefWidth="394.0" text="01 乗車券-えんじゅ交通" />
             <Button alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onBtn02Click" prefHeight="337.0" prefWidth="429.0" text="02  乗車券-支線連絡系統" GridPane.rowIndex="1" />
-            <Button alignment="BASELINE_LEFT" mnemonicParsing="false" prefHeight="200.0" prefWidth="487.0" text="03 " GridPane.rowIndex="2" />
-            <Button alignment="BASELINE_LEFT" mnemonicParsing="false" prefHeight="194.0" prefWidth="508.0" text="04 " GridPane.rowIndex="3" />
-            <Button alignment="BASELINE_LEFT" mnemonicParsing="false" prefHeight="188.0" prefWidth="671.0" text="05 " GridPane.rowIndex="4" />
+            <Button alignment="BASELINE_LEFT" mnemonicParsing="false" prefHeight="200.0" prefWidth="487.0" text="03 乗車券-薬川支線管理区" GridPane.rowIndex="2" />
+            <Button alignment="BASELINE_LEFT" mnemonicParsing="false" prefHeight="194.0" prefWidth="508.0" text="04 乗車券-柊交通鉄道部" GridPane.rowIndex="3" />
+            <Button alignment="BASELINE_LEFT" mnemonicParsing="false" prefHeight="188.0" prefWidth="671.0" text="05 乗車券-ひのき交通" GridPane.rowIndex="4" />
             <Button alignment="BASELINE_LEFT" mnemonicParsing="false" prefHeight="133.0" prefWidth="612.0" text="06 " GridPane.rowIndex="5" />
             <Button alignment="BASELINE_LEFT" mnemonicParsing="false" prefHeight="303.0" prefWidth="425.0" text="07 " GridPane.rowIndex="6" />
             <Button alignment="BASELINE_LEFT" mnemonicParsing="false" prefHeight="266.0" prefWidth="380.0" text="08 " GridPane.columnIndex="1" />

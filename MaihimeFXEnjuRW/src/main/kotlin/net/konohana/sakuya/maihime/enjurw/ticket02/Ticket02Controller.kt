@@ -370,7 +370,7 @@ class Ticket02Controller : Initializable {
         ticketTypeCode = TicketTypeCodeConst.TICKET_TYPE_ROUND_TRIP
     }
 
-    /** 乗車駅設定ボタン押下時処理 */
+    /** 乗車駅照会ボタン押下時処理 */
     @FXML
     private fun onSetFromStaNameClick() {
         val stage = Stage()
@@ -381,7 +381,7 @@ class Ticket02Controller : Initializable {
         stage.show()
     }
 
-    /** 降車駅設定ボタン押下時処理 */
+    /** 降車駅照会ボタン押下時処理 */
     @FXML
     private fun onSetToStaNameClick() {
         val stage = Stage()

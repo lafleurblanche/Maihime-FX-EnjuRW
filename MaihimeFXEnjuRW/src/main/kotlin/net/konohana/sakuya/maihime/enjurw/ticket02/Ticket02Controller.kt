@@ -374,7 +374,7 @@ class Ticket02Controller : Initializable {
     @FXML
     private fun onSetFromStaNameClick() {
         val stage = Stage()
-        val fxmlLoader = FXMLLoader(MaihimeFXEnjuRWApplication::class.java.getResource("inquiry/fromsta-inquiry.fxml"))
+        val fxmlLoader = FXMLLoader(MaihimeFXEnjuRWApplication::class.java.getResource("inquiry/argw-fromsta-inquiry.fxml"))
         val scene = Scene(fxmlLoader.load(), 585.0, 620.0)
         stage.title = "乗車駅照会"
         stage.scene = scene

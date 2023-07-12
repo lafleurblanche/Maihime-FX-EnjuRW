@@ -2,6 +2,7 @@ package net.konohana.sakuya.maihime.enjurw.constant.title
 
 class WebViewTitleConst {
     companion object {
+        const val WEBVIEW_TITLE_AREAGW01_FROMSTA = "乗車駅照会: 支線連絡系統梼谷線"
         const val WEBVIEW_TITLE_ENJURW01_FROMSTA = "乗車駅照会: えんじゅ交通苆谷線"
         const val WEBVIEW_TITLE_ENJURW02_FROMSTA = "乗車駅照会: えんじゅ交通茄谷線"
         const val WEBVIEW_TITLE_ENJURW03_FROMSTA = "乗車駅照会: えんじゅ交通笥谷線"

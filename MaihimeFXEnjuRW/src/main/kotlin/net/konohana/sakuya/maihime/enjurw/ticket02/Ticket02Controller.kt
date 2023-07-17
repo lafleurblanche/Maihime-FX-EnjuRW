@@ -376,7 +376,7 @@ class Ticket02Controller : Initializable {
         val stage = Stage()
         val fxmlLoader = FXMLLoader(MaihimeFXEnjuRWApplication::class.java.getResource("inquiry/argw-fromsta-inquiry.fxml"))
         val scene = Scene(fxmlLoader.load(), 585.0, 620.0)
-        stage.title = "乗車駅照会"
+        stage.title = "乗車駅照会(ARGW)"
         stage.scene = scene
         stage.show()
     }
@@ -387,7 +387,7 @@ class Ticket02Controller : Initializable {
         val stage = Stage()
         val fxmlLoader = FXMLLoader(MaihimeFXEnjuRWApplication::class.java.getResource("inquiry/tosta-inquiry.fxml"))
         val scene = Scene(fxmlLoader.load(), 585.0, 620.0)
-        stage.title = "降車駅照会"
+        stage.title = "降車駅照会(ARGW)"
         stage.scene = scene
         stage.show()
     }
